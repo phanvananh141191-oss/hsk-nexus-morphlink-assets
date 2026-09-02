@@ -138,3 +138,55 @@ Các dòng sau được đánh dấu `meaning_vi_source = "tu-bien-soan (API kho
 **Phát hiện quan trọng về 1 dạng lỗi hệ thống chưa được rà hết:** trong quá trình lấy mẫu ngẫu nhiên, phát hiện nhiều trường hợp `meaning_en` gốc (từ trước khi audit, không thuộc nhóm 1/2/3 đã biết) thực chất là định nghĩa của MỘT TỪ KHÁC bị dính nhầm — nhiều khả năng do bước tra cứu tự động ban đầu (trước audit này) lấy nhầm gloss của từ có chính tả gần giống. Đã xác nhận và sửa 4 trường hợp: `trooper` (bị gán định nghĩa của "trouper"), `sinful` (bị gán định nghĩa của "exorbitant"), `achievable` (bị gán định nghĩa của "possible"), `empurpled` (bị gán định nghĩa liên quan đến "purple prose" thay vì nghĩa "nhuộm màu tím/đỏ tía"). Đây là lỗi ĐỘC LẬP với 3 nhóm lỗi đã biết trong yêu cầu gốc, tỷ lệ xuất hiện thấp (~4/1.000+ dòng đã đọc kỹ) nhưng vì mẫu đã đọc chỉ chiếm ~6-9% tổng số dòng, nhiều khả năng còn sót thêm vài chục trường hợp tương tự trong phần chưa được rà — nên coi đây là rủi ro cần một vòng rà soát chuyên biệt tiếp theo (so khớp meaning_en với 1 từ điển API thật cho toàn bộ 11.288 dòng) nếu cần độ chính xác tuyệt đối.
 
 Ngoài ra, do phạm vi cực lớn (11.334 dòng), nhóm 3 (nghĩa quá hẹp/lệch trọng tâm) chỉ được rà thủ công trên mẫu ngẫu nhiên 700/11.334 dòng (~6,2%) chứ không phải toàn bộ — tỷ lệ lỗi phát hiện được trong mẫu là ~15% (105/700). Ngoại suy, nhiều khả năng còn một số dòng tương tự `transpose`/`hemisphere`/`moderator` (nghĩa đúng nhưng hẹp/lệch trọng tâm) chưa được rà tới trong phần 93,8% còn lại — đây là hạn chế cần nêu rõ, không phải toàn bộ 11.334 dòng đã được xác thực nghĩa ở mức "đọc thủ công so với hiểu biết chung", chỉ có nhóm 1 (2.077 dòng, ưu tiên cao nhất) và nhóm 2 (167 dòng) là được rà 100% theo đúng phạm vi lỗi đã biết.
+
+---
+
+## VÒNG 2 — Sửa lỗi phát hiện thêm từ 1 vòng kiểm tra độc lập tiếp theo
+
+File đầu vào: `morphlink_MERGED_AUDITED.csv` (11.288 dòng). File đầu ra: **`morphlink_MERGED_AUDITED_v2.csv` (11.282 dòng)**. Vòng này không rà lại phần nghĩa đã sửa tốt ở Vòng 1, chỉ xử lý đúng 4 nhóm lỗi được chỉ ra.
+
+### Việc 1 — Loại biến thể ngữ pháp còn sót (mục tiêu bắt buộc #3)
+
+Loại bỏ **7 dòng**: `abler, ablest, fifteens, thirteens, nineteens, outbidden` (loại ngay theo yêu cầu) + `tenderest` (loại sau khi bổ sung `tender` adjective ở Việc 3, vì lúc đó nó trở thành `adj_so_sanh_nhat` của dòng `tender` mới, không cần đứng riêng).
+
+*Đính chính 1 điểm trong prompt đầu vào:* prompt liệt kê "`able` có trong file" làm căn cứ loại `abler/ablest` — kiểm tra thực tế cho thấy **`able` KHÔNG tồn tại trong file** (không có dòng nào với `word=able`), tương tự như "dense", "fond", "stiff", "plain", "kind"... đều không có mặt (vì toàn bộ 11.288 dòng đều là sản phẩm ráp Prefix/Root/Suffix của MorphLink — `so_thanh_phan` tối thiểu luôn là 2, không có mục từ đơn hình vị nào). Dù vậy, việc loại `abler/ablest` vẫn hợp lý và đã thực hiện đúng theo yêu cầu, vì bản thân 2 dòng này chỉ là "so sánh hơn/nhất của able" thuần túy, không mang thêm nghĩa độc lập nào — không phù hợp làm mục từ riêng dù từ gốc có mặt trong file hay không.
+
+**Quét độc lập lại toàn bộ 11.282 dòng** (thuật toán tự viết lại từ đầu, không dựa cột `adj_ghi_chu`/`so_nhieu_bat_quy_tac`/`dong_tu_bat_quy_tac`): **0 vi phạm mới** phát hiện thêm. 13 cặp `-er` trùng chính tả với 1 tính từ khác trong file (`backhander/backhand, bootlegger/bootleg, carpetbagger/carpetbag, easterner/eastern, highlander/highland, insider/inside, lowlander/lowland, northerner/northern, outsider/outside, southerner/southern, teenager/teenage, westerner/western, wildcatter/wildcat`) đều được xác nhận là danh từ tác nhân/dân tộc có nghĩa độc lập thật (không phải so sánh hơn) — giữ nguyên. 1 cặp số nhiều trùng (`inlays/inlay`) là 1 động từ có nghĩa riêng ("khảm, cẩn"), không phải số nhiều — giữ nguyên. Sau khi thêm `tender` (adjective) ở Việc 3, dòng `tenderer` (noun có sẵn, nghĩa "bên nộp hồ sơ dự thầu") trùng chính tả với so sánh hơn của `tender` mới — đã kiểm tra, đây cũng là từ độc lập có nghĩa riêng, không phải biến thể, giữ nguyên.
+
+### Việc 2 — Sửa `footballer` và quét lỗi cùng dạng
+
+`footballer`: sửa `pos` từ `adjective` → `noun`, điền `noun_type=N[C]`, `noun_so_nhieu=footballers`, xóa nội dung 3 cột `adj_so_sanh_hon/adj_so_sanh_nhat/adj_ghi_chu`.
+
+Quét toàn bộ 93 dòng `pos=adjective` kết thúc bằng `-er`, đối chiếu nội dung `meaning_en` (chứa cụm mô tả danh từ tác nhân như "a person who...", "an athlete who..." mà KHÔNG chứa "more"/"comparative") — **chỉ `footballer` là trường hợp bị gắn sai `pos`**, không phát hiện thêm trường hợp nào khác trong 92 dòng còn lại (đều là so sánh hơn thật, hoặc tính từ độc lập hợp lệ như `hardcover, improper, outer, undercover, underwater, upper, rubber, quicksilver`).
+
+### Việc 3 — Bổ sung nghĩa tính từ của `tender`
+
+Thêm 1 dòng mới `word=tender, pos=adjective`: `meaning_en`="gentle, kind, and loving; also, easily hurt, cut, or damaged, or painful when touched"; `meaning_vi`="dịu dàng, âu yếm, đầy tình cảm; cũng có nghĩa mềm, dễ bị tổn thương hoặc đau khi chạm vào"; `adj_so_sanh_hon`="tenderer"; `adj_so_sanh_nhat`="tenderest"; `multi_nghia`="(về thịt) mềm, dễ nhai; (về chủ đề) nhạy cảm, tế nhị". Các cột cấu trúc (`structure/kind/base/thanh_phan_*/loai_ket_hop/ipa`) sao chép từ dòng `tender` (noun) có sẵn để nhất quán với quy ước biểu diễn hình vị đã dùng trong file. Sau đó xóa dòng `tenderest` độc lập (dư thừa).
+
+### Việc 4 — Bổ sung cấu trúc thành phần còn thiếu
+
+Đã parse lại `structure` và điền đầy đủ `thanh_phan_1..N`, `loai_ket_hop`, `so_thanh_phan` cho đúng 12 dòng nêu trong yêu cầu:
+
+| word | structure | thanh_phan (theo thứ tự) | loai_ket_hop |
+|---|---|---|---|
+| demythologize | de-[myth+log]-ize | de-, myth, log, -ize | Prefix + Root + Root + Suffix |
+| expressway | ex-[press+way] | ex-, press, way | Prefix + Root + Root |
+| godforsaken | fore-[god+sake]-en | fore-, god, sake, -en | Prefix + Root + Root + Suffix |
+| halfpennyworth | half-[penny+worth] | half-, penny, worth | Prefix + Root + Root |
+| inasmuch | im-[as+much] | im-, as, much | Prefix + Root + Root |
+| nonchurchgoing | non-[church+go] | non-, church, go | Prefix + Root + Root |
+| oneupmanship | up-[one+man]-ship | up-, one, man, -ship | Prefix + Root + Root + Suffix |
+| selfeffacing | e-[self+face] | e-, self, face | Prefix + Root + Root |
+| superhighways | super-[high+way] | super-, high, way | Prefix + Root + Root |
+| underclassman | under-[class+man] | under-, class, man | Prefix + Root + Root |
+| unputdownable | un-[put+down]-able | un-, put, down, -able | Prefix + Root + Root + Suffix |
+| unselfconsciousness | un-[self+conscious]-ness | un-, self, conscious, -ness | Prefix + Root + Root + Suffix |
+
+**Quét toàn bộ 11.282 dòng** tìm thêm trường hợp `structure` khác rỗng nhưng bộ 3 cột trên rỗng: **0 dòng còn sót** ngoài 12 dòng đã biết — xác nhận đây là toàn bộ các trường hợp lỗi này trong file. Kiểm tra chéo bổ sung (không nằm trong yêu cầu gốc nhưng làm để chắc chắn): đối chiếu `so_thanh_phan` với số lượng thực tế các cột `thanh_phan_1..6` đã điền, và đối chiếu số nhãn trong `loai_ket_hop` — **khớp 100%** trên toàn bộ file, không còn dòng nào lệch.
+
+### QA sau khi sửa (Vòng 2) — tất cả PASS
+
+1. Quét lại thuật toán Việc 1 trên file kết quả: **0 dòng vi phạm còn lại**.
+2. Quét lại toàn bộ `pos=adjective` kết thúc `-er` đối chiếu nghĩa: **0 dòng còn là danh từ tác nhân bị gắn nhầm pos**.
+3. Quét lại toàn bộ dòng có `structure` khác rỗng: **0 dòng còn thiếu `thanh_phan_1..6`/`loai_ket_hop`/`so_thanh_phan`**.
+4. **Tổng số dòng cuối cùng: 11.282** (11.288 − 7 dòng loại bỏ + 1 dòng `tender` adjective thêm mới = 11.282).
