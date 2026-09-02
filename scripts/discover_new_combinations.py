@@ -82,6 +82,21 @@ print("existing compound pairs:", len(existing_compound_pairs))
 roots_list = sorted(roots)
 results = []  # (kieu, thanh_phan, tu_moi)
 
+def is_word(component):
+    """True nếu thành phần này tự đứng được như 1 từ tiếng Anh độc lập
+    (có trong từ điển), vd 'sun', 'happy' — khác với gốc bị ràng buộc
+    không đứng một mình được, vd 'bio', 'eco'. Cùng quy ước đã dùng ở
+    scripts/build_word_formation_map.py."""
+    return component in dict_words
+
+def compound_type(c1, c2):
+    w1, w2 = is_word(c1), is_word(c2)
+    if not w1 and not w2:
+        return "Root + Root"
+    if w1 and w2:
+        return "Word + Word"
+    return "Root + Word"
+
 # Root/từ quá ngắn (<=3 ký tự) dễ trùng ngẫu nhiên với một từ có thật hoàn
 # toàn không liên quan (vd "line"+"n" -> "linen", "of"+"t" -> "oft") — bỏ
 # qua để giảm báo sai, đổi lại bỏ sót một số từ ghép ngắn thật (chấp nhận
@@ -101,7 +116,7 @@ for r1 in roots_list:
         cand = r1 + r2
         if cand in dict_words:
             new_compounds[(r1, r2)] = cand
-            results.append(("root+root (compound)", f"{r1}+{r2}", cand))
+            results.append((compound_type(r1, r2), f"{r1}+{r2}", cand))
 
 print("new root+root compounds:", len(new_compounds))
 
@@ -115,7 +130,8 @@ for root in roots_list:
             continue
         cand = pre + root
         if cand in dict_words:
-            results.append(("prefix+root", f"{pre}-+{root}", cand))
+            label = "Prefix + Word" if is_word(root) else "Prefix + Root"
+            results.append((label, f"{pre}-+{root}", cand))
             new_prefix_root += 1
 print("new prefix+root:", new_prefix_root)
 
@@ -144,7 +160,8 @@ for root in roots_list:
                 hit = cand
                 break
         if hit:
-            results.append(("root+suffix", f"{root}+-{suf}", hit))
+            label = "Word + Suffix" if is_word(root) else "Root + Suffix"
+            results.append((label, f"{root}+-{suf}", hit))
             new_root_suffix += 1
 print("new root+suffix:", new_root_suffix)
 
