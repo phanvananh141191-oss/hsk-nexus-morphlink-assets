@@ -1,0 +1,2383 @@
+root_word,topic,subtopic,is_polysemous
+a,Ngữ pháp và hư từ,Trợ từ,False
+abandon,Khái niệm trừu tượng,Hành động và xử lý,False
+able,Khái niệm trừu tượng,Khả năng và cần thiết,False
+abolish,Khái niệm trừu tượng,Hành động và xử lý,False
+about,Ngữ pháp và hư từ,Giới từ,False
+above,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+absent,Khái niệm trừu tượng,Tính chất khác,False
+absolute,Khái niệm trừu tượng,Mức độ và so sánh,False
+absurd,Khái niệm trừu tượng,Đánh giá và giá trị,False
+abuse,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+accent,Học tập và giáo dục,Học ngoại ngữ,False
+accept,Khái niệm trừu tượng,Thái độ,False
+access,Khái niệm trừu tượng,Khả năng và cần thiết,False
+accident,Giao thông,Tai nạn và cứu hộ,False
+accommodate,Du lịch và lưu trú,Khách sạn,False
+accomplish,Khái niệm trừu tượng,Hành động và xử lý,False
+account,Kinh doanh và tài chính,Tài khoản ngân hàng,False
+accuse,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+achieve,Khái niệm trừu tượng,Hành động và xử lý,False
+acid,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+acre,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+act,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,True
+act,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,True
+acute,Sức khỏe,Triệu chứng,False
+ad,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+adapt,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+add,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+address,Ngôn ngữ hằng ngày,Thông tin cá nhân,False
+admire,Con người,Cảm xúc,False
+admit,Khái niệm trừu tượng,Hành động và xử lý,False
+adopt,Con người,Gia đình,False
+adult,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+advance,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+advantage,Khái niệm trừu tượng,Đánh giá và giá trị,False
+adverse,Khái niệm trừu tượng,Đánh giá và giá trị,False
+advise,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+afraid,Con người,Cảm xúc,False
+after,Khái niệm trừu tượng,Thời gian và thứ tự,False
+age,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+agent,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+ago,Khái niệm trừu tượng,Thời gian và thứ tự,False
+agree,Khái niệm trừu tượng,Thái độ,False
+aid,"Pháp luật, an toàn và khẩn cấp",Cứu hộ,False
+aim,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+air,Môi trường và tự nhiên,Trái Đất,True
+air,Giải trí và thời gian rảnh,Truyền hình,True
+air,Giao thông,Sân bay,True
+alarm,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+alcohol,Ăn uống bên ngoài,Đồ uống có cồn,False
+alert,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+alien,Môi trường và tự nhiên,Không gian,False
+all,Ngữ pháp và hư từ,Lượng từ,False
+allege,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+allow,Khái niệm trừu tượng,Khả năng và cần thiết,False
+ally,Con người,Mối quan hệ,False
+alone,Con người,Cảm xúc,False
+along,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+alter,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+amateur,Thể thao,Thể thao chung,False
+amaze,Con người,Cảm xúc,False
+amend,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+amid,Ngữ pháp và hư từ,Giới từ,False
+among,Ngữ pháp và hư từ,Giới từ,False
+amuse,Con người,Cảm xúc,False
+analysis,Học tập và giáo dục,Nghiên cứu,False
+ancestor,Con người,Gia đình,False
+anchor,Giao thông,Cảng,False
+ancient,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+angel,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+angle,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+angry,Con người,Cảm xúc,False
+animal,Môi trường và tự nhiên,Động vật có vú,False
+ankle,Con người,Cơ thể,False
+announce,Khái niệm trừu tượng,Hành động và xử lý,False
+annoy,Con người,Cảm xúc,False
+answer,Học tập và giáo dục,Bài kiểm tra,False
+anticipate,Con người,Cảm xúc,False
+any,Ngữ pháp và hư từ,Lượng từ,False
+apart,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+appeal,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+appear,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+apple,Thực phẩm,Trái cây,False
+applicable,Khái niệm trừu tượng,Khả năng và cần thiết,False
+apply,Nghề nghiệp và công việc,Tìm việc,False
+appoint,Nghề nghiệp và công việc,Tìm việc,False
+approach,Khái niệm trừu tượng,Hành động và xử lý,False
+approve,Khái niệm trừu tượng,Đánh giá và giá trị,False
+architect,Nghề nghiệp và công việc,Nghề kỹ thuật và xây dựng,False
+area,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+argue,Con người,Mối quan hệ,False
+arm,Con người,Cơ thể,True
+arm,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,True
+around,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+arrange,Khái niệm trừu tượng,Hành động và xử lý,False
+array,"Khoa học, công nghệ và kỹ thuật",Máy tính,False
+arrest,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+arrive,Du lịch và lưu trú,Bến xe,False
+arrow,"Nghệ thuật, thiết kế và văn hóa",Biểu tượng và biển hiệu,False
+art,"Nghệ thuật, thiết kế và văn hóa",Hội họa,False
+as,Ngữ pháp và hư từ,Liên từ,False
+ash,Môi trường và tự nhiên,Địa chất,False
+ask,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+assert,Khái niệm trừu tượng,Thái độ,False
+assess,Học tập và giáo dục,Điểm số và đánh giá,False
+assign,Nghề nghiệp và công việc,Cuộc họp,False
+assist,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+assume,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+astonish,Con người,Cảm xúc,False
+at,Ngữ pháp và hư từ,Giới từ,False
+athlete,Thể thao,Thể thao chung,False
+attach,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+attack,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+attain,Khái niệm trừu tượng,Hành động và xử lý,False
+attend,Học tập và giáo dục,Lớp học,False
+attitude,Khái niệm trừu tượng,Thái độ,False
+attract,Con người,Mối quan hệ,False
+auction,Kinh doanh và tài chính,Mua bán và giao dịch,False
+audio,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,False
+august,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+aunt,Con người,Gia đình,False
+author,Nghề nghiệp và công việc,Nghề sáng tạo và nghệ thuật,False
+auto,Giao thông,Ô tô,False
+automatic,"Khoa học, công nghệ và kỹ thuật",Tự động hóa,False
+autumn,Môi trường và tự nhiên,Các mùa,False
+avoid,Khái niệm trừu tượng,Hành động và xử lý,False
+aware,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+away,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+awkward,Con người,Cảm xúc,False
+baby,Sức khỏe,Trẻ sơ sinh,False
+back,Con người,Cơ thể,True
+back,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+bad,Khái niệm trừu tượng,Đánh giá và giá trị,False
+bag,Ngoại hình và trang phục,Túi xách,False
+bail,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+bake,Đời sống hằng ngày,Nấu ăn,False
+balance,Kinh doanh và tài chính,Tài khoản ngân hàng,False
+ball,Thể thao,Trang thiết bị thể thao,False
+balloon,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+ban,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+band,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+bank,Kinh doanh và tài chính,Ngân hàng,True
+bank,Môi trường và tự nhiên,"Sông, hồ và thác nước",True
+bar,Ăn uống bên ngoài,Quầy bar,True
+bar,"Pháp luật, an toàn và khẩn cấp",Luật sư,True
+bar,Thể thao,Trang thiết bị thể thao,True
+bare,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+base,Khái niệm trừu tượng,Phạm vi và bộ phận,True
+base,Thể thao,Bóng chày,True
+basket,Ngôn ngữ hằng ngày,Bao bì và vật chứa,False
+bat,Môi trường và tự nhiên,Động vật có vú,True
+bat,Thể thao,Bóng chày,True
+bath,Nhà cửa,Phòng tắm,False
+battle,Khái niệm trừu tượng,Hành động và xử lý,False
+bay,Môi trường và tự nhiên,Biển và đại dương,False
+be,Ngữ pháp và hư từ,Trợ từ,False
+beach,Giải trí và thời gian rảnh,Bãi biển,False
+beam,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+bean,Thực phẩm,Đậu và đậu Hà Lan,False
+bear,Môi trường và tự nhiên,Động vật có vú,True
+bear,Kinh doanh và tài chính,Đầu tư,True
+beast,Môi trường và tự nhiên,Động vật có vú,False
+beat,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+beauty,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+become,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+bed,Nhà cửa,Phòng ngủ,True
+bed,Nhà cửa,Vườn sân trong,True
+bee,Môi trường và tự nhiên,Động vật không xương sống,False
+beef,Thực phẩm,Thịt,False
+beer,Ăn uống bên ngoài,Đồ uống có cồn,False
+before,Khái niệm trừu tượng,Thời gian và thứ tự,False
+beg,Con người,Mối quan hệ,False
+begin,Khái niệm trừu tượng,Thời gian và thứ tự,False
+behave,Con người,Tính cách,False
+behind,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+belief,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+believe,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+bell,Cộng đồng và đô thị,Nhà thờ và nơi thờ tự,False
+belt,Ngoại hình và trang phục,Phụ kiện,False
+bench,Cộng đồng và đô thị,Công viên,False
+bend,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+bent,Khái niệm trừu tượng,Tính chất khác,False
+bet,Giải trí và thời gian rảnh,Trò chơi bài,False
+betray,Con người,Mối quan hệ,False
+better,Khái niệm trừu tượng,Mức độ và so sánh,False
+bias,Khái niệm trừu tượng,Đánh giá và giá trị,False
+bid,Kinh doanh và tài chính,Mua bán và giao dịch,False
+big,Khái niệm trừu tượng,Mức độ và so sánh,False
+bike,Giao thông,Xe đạp,False
+bill,Kinh doanh và tài chính,Hóa đơn và biên lai,True
+bill,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,True
+bin,Nhà cửa,Xử lý rác,False
+bind,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+bird,Môi trường và tự nhiên,Chim,False
+birth,Sức khỏe,Sinh nở,False
+bishop,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+bit,"Khoa học, công nghệ và kỹ thuật",Máy tính,True
+bit,Ngôn ngữ hằng ngày,Từ chỉ số lượng,True
+bite,Sức khỏe,Chấn thương,False
+bitter,Thực phẩm,Gia vị,False
+bizarre,Khái niệm trừu tượng,Đánh giá và giá trị,False
+black,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+blade,Nhà cửa,Đồ nội thất,False
+blame,Con người,Mối quan hệ,False
+blank,Khái niệm trừu tượng,Tính chất khác,False
+blast,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,False
+bleed,Sức khỏe,Chấn thương,False
+blend,Thực phẩm,Gia vị,False
+bless,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+blind,Sức khỏe,Triệu chứng,False
+block,Cộng đồng và đô thị,Khu dân cư,True
+block,"Khoa học, công nghệ và kỹ thuật",Máy tính,True
+blood,Sức khỏe,Hiến máu,False
+blow,Khái niệm trừu tượng,Hành động và xử lý,False
+blue,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+board,Nhà cửa,Đồ nội thất,True
+board,Kinh doanh và tài chính,Công ty và phòng ban,True
+boast,Con người,Tính cách,False
+boat,Giao thông,Tàu thuyền,False
+body,Con người,Cơ thể,False
+boil,Đời sống hằng ngày,Nấu ăn,False
+bold,Con người,Tính cách,False
+bomb,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,False
+bond,Kinh doanh và tài chính,Đầu tư,False
+bone,Con người,Bộ xương,False
+book,Học tập và giáo dục,Sách giáo khoa,False
+boost,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+boot,Ngoại hình và trang phục,Giày dép,False
+border,Cộng đồng và đô thị,Đường phố và giao lộ,False
+bore,Con người,Cảm xúc,False
+born,Sức khỏe,Sinh nở,False
+borrow,Kinh doanh và tài chính,Khoản vay,False
+boss,Nghề nghiệp và công việc,Nơi làm việc,False
+bother,Con người,Cảm xúc,False
+bottle,Ngôn ngữ hằng ngày,Bao bì và vật chứa,False
+bottom,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+bounce,Thể thao,Bóng rổ,False
+bound,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+bow,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+bowl,Nhà cửa,Đồ nội thất,False
+box,Ngôn ngữ hằng ngày,Bao bì và vật chứa,True
+box,Thể thao,Thể thao đối kháng,True
+boy,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+brain,Con người,Nội tạng,False
+branch,Kinh doanh và tài chính,Công ty và phòng ban,False
+brand,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+brave,Con người,Tính cách,False
+bread,Thực phẩm,Bánh mì và bột,False
+break,Khái niệm trừu tượng,Hành động và xử lý,False
+breast,Con người,Cơ thể,False
+breath,Con người,Hệ cơ thể,False
+breed,Môi trường và tự nhiên,Động vật có vú,False
+brick,Nhà cửa,Sửa chữa và bảo trì,False
+bride,Con người,Sự kiện đời người,False
+bridge,Giao thông,Đường sá,False
+brief,Khái niệm trừu tượng,Mức độ và so sánh,True
+brief,Ngoại hình và trang phục,Đồ lót,True
+bright,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,True
+bright,Con người,Tính cách,True
+bring,Khái niệm trừu tượng,Hành động và xử lý,False
+broad,Khái niệm trừu tượng,Mức độ và so sánh,False
+brother,Con người,Gia đình,False
+brown,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+brush,Ngoại hình và trang phục,Chăm sóc da,False
+bubble,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+buck,Kinh doanh và tài chính,Tiền mặt và thẻ,False
+budget,Kinh doanh và tài chính,Ngân sách cá nhân,False
+bug,Môi trường và tự nhiên,Động vật không xương sống,False
+build,Nghề nghiệp và công việc,Nghề kỹ thuật và xây dựng,False
+bulk,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+bullet,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+bunch,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+burden,Khái niệm trừu tượng,Tính chất khác,False
+burn,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,False
+burst,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+bury,Cộng đồng và đô thị,Nghĩa trang,False
+bus,Giao thông,Xe buýt,False
+bush,Môi trường và tự nhiên,Cây,False
+business,Kinh doanh và tài chính,Doanh nghiệp,False
+busy,Nghề nghiệp và công việc,Nơi làm việc,False
+butter,Thực phẩm,Sữa và sản phẩm từ sữa,False
+button,Ngoại hình và trang phục,Chất liệu vải,False
+buy,Mua sắm,Mua sắm trực tuyến,False
+by,Ngữ pháp và hư từ,Giới từ,False
+bye,Ngôn ngữ hằng ngày,Chào hỏi và giới thiệu bản thân,False
+cabinet,Nhà cửa,Đồ nội thất,False
+cake,Thực phẩm,Bánh và món tráng miệng,False
+call,Dịch vụ,Điện thoại,False
+calm,Con người,Tính cách,False
+camera,Giải trí và thời gian rảnh,Máy ảnh,False
+camp,Giải trí và thời gian rảnh,Cắm trại,False
+campaign,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+can,Ngữ pháp và hư từ,Trợ từ,True
+can,Thực phẩm,Thực phẩm đóng hộp,True
+canal,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+cancel,Du lịch và lưu trú,Đặt vé,False
+cancer,Sức khỏe,Bệnh tật,False
+candle,Nhà cửa,Trang trí nhà cửa,False
+canvas,"Nghệ thuật, thiết kế và văn hóa",Vật liệu nghệ thuật,False
+cap,Ngoại hình và trang phục,Phụ kiện,True
+cap,Kinh doanh và tài chính,Đầu tư,True
+capable,Khái niệm trừu tượng,Khả năng và cần thiết,False
+captain,Giao thông,Tàu thuyền,False
+car,Giao thông,Ô tô,False
+carbon,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+card,Kinh doanh và tài chính,Tiền mặt và thẻ,True
+card,Giải trí và thời gian rảnh,Trò chơi bài,True
+card,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,True
+care,Sức khỏe,Chăm sóc người cao tuổi,False
+career,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+cargo,Giao thông,Xe tải và vận chuyển,False
+carpet,Nhà cửa,Trang trí nhà cửa,False
+carrot,Thực phẩm,Rau củ,False
+carry,Khái niệm trừu tượng,Hành động và xử lý,False
+cartoon,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+carve,"Nghệ thuật, thiết kế và văn hóa",Điêu khắc,False
+case,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+case,Du lịch và lưu trú,Hành lý,True
+cash,Kinh doanh và tài chính,Tiền mặt và thẻ,False
+cast,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,True
+cast,Sức khỏe,Sơ cứu,True
+castle,"Nghệ thuật, thiết kế và văn hóa",Kiến trúc,False
+casual,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+cat,Môi trường và tự nhiên,Động vật có vú,False
+catch,Thể thao,Bóng chày,False
+cater,Ăn uống bên ngoài,Nhà hàng,False
+cause,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+cave,Môi trường và tự nhiên,Núi và cảnh quan,False
+cease,Khái niệm trừu tượng,Thời gian và thứ tự,False
+cell,"Khoa học, công nghệ và kỹ thuật",Sinh học,True
+cell,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+centre,Cộng đồng và đô thị,Trung tâm thành phố,False
+ceremony,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+certain,Khái niệm trừu tượng,Đánh giá và giá trị,False
+chain,"Khoa học, công nghệ và kỹ thuật",Cơ khí,False
+chair,Nhà cửa,Đồ nội thất,True
+chair,Nghề nghiệp và công việc,Cuộc họp,True
+challenge,Nghề nghiệp và công việc,Nơi làm việc,False
+chamber,"Pháp luật, an toàn và khẩn cấp",Phòng xử án,False
+champion,Thể thao,Thể thao chung,False
+chance,Khái niệm trừu tượng,Khả năng và cần thiết,False
+change,Khái niệm trừu tượng,Thay đổi và phát sinh,True
+change,Kinh doanh và tài chính,Tiền mặt và thẻ,True
+channel,Giải trí và thời gian rảnh,Truyền hình,False
+character,Con người,Tính cách,False
+charge,Kinh doanh và tài chính,Hóa đơn và biên lai,True
+charge,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,True
+charge,"Khoa học, công nghệ và kỹ thuật",Điện,True
+charm,Con người,Ngoại hình,False
+chart,Học tập và giáo dục,Nghiên cứu,False
+charter,Giao thông,Bến du thuyền,False
+chase,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+chat,Con người,Mối quan hệ,False
+cheap,Mua sắm,Khuyến mãi và giảm giá,False
+cheat,Học tập và giáo dục,Bài kiểm tra,False
+check,Mua sắm,Quầy thanh toán,True
+check,Kinh doanh và tài chính,Tiền mặt và thẻ,True
+check,Sức khỏe,Tư vấn y tế,True
+cheek,Con người,Khuôn mặt,False
+cheer,Con người,Cảm xúc,False
+cheese,Thực phẩm,Phô mai,False
+chest,Con người,Cơ thể,True
+chest,Nhà cửa,Đồ nội thất,True
+chief,Nghề nghiệp và công việc,Nơi làm việc,False
+child,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+chip,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,False
+choice,Khái niệm trừu tượng,Đánh giá và giá trị,False
+choir,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+choose,Khái niệm trừu tượng,Đánh giá và giá trị,False
+chop,Đời sống hằng ngày,Nấu ăn,False
+chunk,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+church,Cộng đồng và đô thị,Nhà thờ và nơi thờ tự,False
+cinema,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+circle,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+circuit,"Khoa học, công nghệ và kỹ thuật",Điện,False
+cite,Học tập và giáo dục,Nghiên cứu,False
+citizen,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+city,Cộng đồng và đô thị,Trung tâm thành phố,False
+civil,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+claim,Kinh doanh và tài chính,Bảo hiểm,True
+claim,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+class,Học tập và giáo dục,Lớp học,True
+class,Giao thông,Máy bay,True
+clean,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+clear,Môi trường và tự nhiên,Thời tiết,True
+clear,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+clever,Con người,Tính cách,False
+cliff,Môi trường và tự nhiên,Núi và cảnh quan,False
+climate,Môi trường và tự nhiên,Khí hậu,False
+climb,Giải trí và thời gian rảnh,Đi bộ đường dài,False
+cling,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+clinic,Sức khỏe,Phòng khám,False
+clip,Học tập và giáo dục,Đồ dùng học tập,False
+clock,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+close,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+cloth,Ngoại hình và trang phục,Chất liệu vải,False
+cloud,Môi trường và tự nhiên,Thời tiết,False
+club,Giải trí và thời gian rảnh,Sự kiện và lễ hội,True
+club,Thể thao,Golf,True
+clue,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+coach,Thể thao,Thể thao chung,True
+coach,Giao thông,Xe buýt,True
+coal,"Khoa học, công nghệ và kỹ thuật",Năng lượng,False
+coast,Môi trường và tự nhiên,Biển và đại dương,False
+coat,Ngoại hình và trang phục,Quần áo mùa đông,True
+coat,"Nghệ thuật, thiết kế và văn hóa",Hội họa,True
+code,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+coffee,Ăn uống bên ngoài,Cà phê,False
+coin,Ngôn ngữ hằng ngày,Tiền tệ và mệnh giá,False
+cold,Sức khỏe,Bệnh tật,False
+collapse,Sức khỏe,Chấn thương,False
+collect,Giải trí và thời gian rảnh,Sở thích thủ công,False
+college,Học tập và giáo dục,Đại học,False
+color,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+column,"Nghệ thuật, thiết kế và văn hóa",Kiến trúc,False
+combat,Thể thao,Thể thao đối kháng,False
+combine,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+come,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+comedy,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+comfort,Nhà cửa,Phòng khách,False
+comic,Giải trí và thời gian rảnh,Đọc sách,False
+command,Nghề nghiệp và công việc,Nghề công vụ và an ninh,False
+commence,Khái niệm trừu tượng,Thời gian và thứ tự,False
+comment,Giải trí và thời gian rảnh,Mạng xã hội,False
+commerce,Kinh doanh và tài chính,Thương mại điện tử,False
+commit,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+common,Khái niệm trừu tượng,Đánh giá và giá trị,False
+compare,Khái niệm trừu tượng,Mức độ và so sánh,False
+compassion,Con người,Cảm xúc,False
+compel,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+compensate,Kinh doanh và tài chính,Bảo hiểm,False
+compete,Thể thao,Thể thao chung,False
+compile,Học tập và giáo dục,Nghiên cứu,False
+complain,Dịch vụ,Khiếu nại và yêu cầu hỗ trợ,False
+complete,Khái niệm trừu tượng,Hành động và xử lý,False
+complicate,Khái niệm trừu tượng,Tính chất khác,False
+comply,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+compromise,Con người,Mối quan hệ,False
+compute,"Khoa học, công nghệ và kỹ thuật",Máy tính,False
+conceal,Khái niệm trừu tượng,Hành động và xử lý,False
+concern,Con người,Cảm xúc,False
+concert,Giải trí và thời gian rảnh,Hòa nhạc,False
+concrete,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+condemn,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+condition,Sức khỏe,Bệnh tật,False
+confer,Nghề nghiệp và công việc,Cuộc họp,False
+confess,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+confuse,Con người,Cảm xúc,False
+congratulate,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+connect,"Khoa học, công nghệ và kỹ thuật",Internet,False
+conquer,Khái niệm trừu tượng,Hành động và xử lý,False
+conscience,Con người,Tính cách,False
+conscious,Sức khỏe,Triệu chứng,False
+consecutive,Khái niệm trừu tượng,Thời gian và thứ tự,False
+consequence,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+consider,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+constant,Khái niệm trừu tượng,Thời gian và thứ tự,False
+consult,Sức khỏe,Tư vấn y tế,False
+contemplate,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+contempt,Con người,Cảm xúc,False
+contend,Con người,Mối quan hệ,False
+content,Khái niệm trừu tượng,Đánh giá và giá trị,False
+continue,Khái niệm trừu tượng,Thời gian và thứ tự,False
+contract,Kinh doanh và tài chính,Hợp đồng,False
+control,Khái niệm trừu tượng,Hành động và xử lý,False
+convenience,Đời sống hằng ngày,Thói quen hằng ngày,False
+convenient,Khái niệm trừu tượng,Đánh giá và giá trị,False
+convention,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+convey,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+convict,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+convince,Con người,Mối quan hệ,False
+cook,Đời sống hằng ngày,Nấu ăn,True
+cook,Nghề nghiệp và công việc,Nghề dịch vụ và ẩm thực,True
+cool,Môi trường và tự nhiên,Thời tiết,True
+cool,Con người,Tính cách,True
+cope,Con người,Cảm xúc,False
+copper,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+copy,Học tập và giáo dục,Đồ dùng học tập,False
+core,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+corner,Cộng đồng và đô thị,Đường phố và giao lộ,False
+correct,Học tập và giáo dục,Điểm số và đánh giá,False
+correspond,Dịch vụ,Bưu điện,False
+cost,Kinh doanh và tài chính,Chi phí sinh hoạt,False
+costume,Ngoại hình và trang phục,Quần áo nữ,False
+cottage,Nhà cửa,Các loại nhà,False
+cotton,Ngoại hình và trang phục,Chất liệu vải,False
+counsel,"Pháp luật, an toàn và khẩn cấp",Luật sư,False
+count,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,True
+count,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+counter,Mua sắm,Quầy thanh toán,False
+country,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+couple,Con người,Mối quan hệ,False
+courage,Con người,Tính cách,False
+course,Học tập và giáo dục,Các môn học,False
+court,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+courtesy,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+cousin,Con người,Gia đình,False
+cover,Học tập và giáo dục,Sách giáo khoa,True
+cover,Kinh doanh và tài chính,Bảo hiểm,True
+cow,Môi trường và tự nhiên,Động vật có vú,False
+crack,"Khoa học, công nghệ và kỹ thuật",Vật liệu,True
+crack,Con người,Cảm xúc,True
+craft,Giải trí và thời gian rảnh,Sở thích thủ công,False
+crash,Giao thông,Tai nạn và cứu hộ,False
+crawl,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+cream,Ngoại hình và trang phục,Chăm sóc da,False
+create,"Nghệ thuật, thiết kế và văn hóa",Thiết kế đồ họa,False
+credit,Kinh doanh và tài chính,Tiền mặt và thẻ,False
+creep,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+crew,Giao thông,Tàu thuyền,False
+crimin,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+crisis,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+critic,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+crop,Môi trường và tự nhiên,Nông nghiệp,True
+crop,Giải trí và thời gian rảnh,Nhiếp ảnh,True
+cross,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+crowd,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+crown,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+crucial,Khái niệm trừu tượng,Đánh giá và giá trị,False
+crude,"Khoa học, công nghệ và kỹ thuật",Năng lượng,False
+cruel,Con người,Tính cách,False
+cruise,Du lịch và lưu trú,Du lịch bằng tàu,False
+crush,Con người,Cảm xúc,False
+cry,Con người,Cảm xúc,False
+crystal,Môi trường và tự nhiên,Khoáng vật,False
+cue,Giải trí và thời gian rảnh,Sân khấu,False
+cult,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+culture,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+cup,Nhà cửa,Đồ nội thất,False
+cure,Sức khỏe,Thuốc và dạng thuốc,False
+curious,Con người,Tính cách,False
+current,"Khoa học, công nghệ và kỹ thuật",Điện,True
+current,Khái niệm trừu tượng,Thời gian và thứ tự,True
+current,Môi trường và tự nhiên,Biển và đại dương,True
+curve,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+custody,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+custom,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,True
+custom,Kinh doanh và tài chính,Khách hàng,True
+cut,Đời sống hằng ngày,Nấu ăn,False
+cute,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+cycle,Giao thông,Xe đạp,False
+dad,Con người,Gia đình,False
+dairy,Thực phẩm,Sữa và sản phẩm từ sữa,False
+damage,Giao thông,Tai nạn và cứu hộ,False
+dance,Giải trí và thời gian rảnh,Khiêu vũ,False
+danger,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+dare,Con người,Tính cách,False
+dark,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+date,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",True
+date,Con người,Mối quan hệ,True
+date,Thực phẩm,Trái cây,True
+daughter,Con người,Gia đình,False
+day,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+dead,Con người,Sự kiện đời người,False
+deal,Kinh doanh và tài chính,Mua bán và giao dịch,True
+deal,Giải trí và thời gian rảnh,Trò chơi bài,True
+dear,Ngôn ngữ hằng ngày,Chào hỏi và giới thiệu bản thân,False
+death,Con người,Sự kiện đời người,False
+debate,Học tập và giáo dục,Kỹ năng học tập,False
+debt,Kinh doanh và tài chính,Khoản vay,False
+decent,Khái niệm trừu tượng,Đánh giá và giá trị,False
+decide,Khái niệm trừu tượng,Đánh giá và giá trị,False
+deck,Giao thông,Tàu thuyền,True
+deck,Giải trí và thời gian rảnh,Trò chơi bài,True
+declare,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+dedicate,Con người,Tính cách,False
+deed,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+deep,Môi trường và tự nhiên,Biển và đại dương,False
+default,Kinh doanh và tài chính,Khoản vay,False
+defeat,Thể thao,Thể thao chung,False
+defence,"Pháp luật, an toàn và khẩn cấp",Luật sư,False
+defend,"Pháp luật, an toàn và khẩn cấp",Luật sư,False
+define,Học tập và giáo dục,Nghiên cứu,False
+defy,Con người,Tính cách,False
+delete,"Khoa học, công nghệ và kỹ thuật",Máy tính,False
+deliberate,Khái niệm trừu tượng,Thái độ,False
+delicious,Thực phẩm,An toàn thực phẩm,False
+delight,Con người,Cảm xúc,False
+deliver,Dịch vụ,Dịch vụ giao hàng,False
+demon,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+dense,Khái niệm trừu tượng,Mức độ và so sánh,False
+deny,Khái niệm trừu tượng,Thái độ,False
+depart,Du lịch và lưu trú,Bến xe,False
+department,Kinh doanh và tài chính,Công ty và phòng ban,False
+deploy,Nghề nghiệp và công việc,Nghề công vụ và an ninh,False
+deposit,Kinh doanh và tài chính,Tài khoản ngân hàng,False
+deprive,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+derive,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+descend,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+desert,Môi trường và tự nhiên,Trái Đất,True
+desert,Con người,Mối quan hệ,True
+design,"Nghệ thuật, thiết kế và văn hóa",Thiết kế đồ họa,False
+desire,Con người,Cảm xúc,False
+desk,Nhà cửa,Đồ nội thất,False
+desperate,Con người,Cảm xúc,False
+destroy,Khái niệm trừu tượng,Hành động và xử lý,False
+detect,"Khoa học, công nghệ và kỹ thuật",Dụng cụ khoa học,False
+deteriorate,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+determine,Khái niệm trừu tượng,Đánh giá và giá trị,False
+devastate,"Pháp luật, an toàn và khẩn cấp",Thiên tai,False
+develop,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+devil,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+devise,Khái niệm trừu tượng,Hành động và xử lý,False
+devote,Con người,Tính cách,False
+diagram,Học tập và giáo dục,Nghiên cứu,False
+die,Con người,Sự kiện đời người,False
+diet,Sức khỏe,Cơ thể và sức khỏe,False
+differ,Khái niệm trừu tượng,Mức độ và so sánh,False
+difficult,Khái niệm trừu tượng,Khả năng và cần thiết,False
+dig,Môi trường và tự nhiên,Nông nghiệp,False
+dimension,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+diminish,Khái niệm trừu tượng,Mức độ và so sánh,False
+dinner,Ăn uống bên ngoài,Bữa tối,False
+dip,Đời sống hằng ngày,Nấu ăn,False
+direct,Khái niệm trừu tượng,Hành động và xử lý,False
+dirt,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+disaster,"Pháp luật, an toàn và khẩn cấp",Thiên tai,False
+discipline,Học tập và giáo dục,Kỹ năng học tập,False
+discours,Học tập và giáo dục,Nghiên cứu,False
+discover,Học tập và giáo dục,Nghiên cứu,False
+dish,Ăn uống bên ngoài,Gọi món,False
+disk,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,False
+dispute,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+distance,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+distant,Khái niệm trừu tượng,Mức độ và so sánh,False
+distinct,Khái niệm trừu tượng,Đánh giá và giá trị,False
+distinguish,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+distress,Con người,Cảm xúc,False
+disturb,Con người,Cảm xúc,False
+dive,Thể thao,Thể thao dưới nước,False
+diverse,Khái niệm trừu tượng,Đánh giá và giá trị,False
+divide,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+divine,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+divorce,Con người,Mối quan hệ,False
+do,Ngữ pháp và hư từ,Trợ từ,False
+doctor,Sức khỏe,Bác sĩ,False
+doctrine,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+document,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+dog,Môi trường và tự nhiên,Động vật có vú,False
+domestic,Nhà cửa,Ngôi nhà,False
+door,Nhà cửa,Các phòng trong nhà,False
+dose,Sức khỏe,Thuốc và dạng thuốc,False
+dot,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+double,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+doubt,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+down,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+draft,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+drag,Khái niệm trừu tượng,Hành động và xử lý,False
+drain,Nhà cửa,Hệ thống điện và nước,False
+drama,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,False
+draw,"Nghệ thuật, thiết kế và văn hóa",Vẽ và phác thảo,True
+draw,Thể thao,Luật thi đấu,True
+dream,Con người,Cảm xúc,False
+dress,Ngoại hình và trang phục,Quần áo nữ,True
+dress,Đời sống hằng ngày,Mặc quần áo,True
+drift,Môi trường và tự nhiên,Biển và đại dương,False
+drink,Ăn uống bên ngoài,Đồ uống,False
+drive,Giao thông,Ô tô,True
+drive,Con người,Tính cách,True
+drive,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,True
+drop,Khái niệm trừu tượng,Thay đổi và phát sinh,True
+drop,Dịch vụ,Dịch vụ giao hàng,True
+drug,Sức khỏe,Thuốc và dạng thuốc,False
+drum,Giải trí và thời gian rảnh,Nhạc cụ,False
+drunk,Ăn uống bên ngoài,Đồ uống có cồn,False
+dry,Môi trường và tự nhiên,Thời tiết,False
+dual,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+due,Kinh doanh và tài chính,Hóa đơn và biên lai,False
+dull,Khái niệm trừu tượng,Đánh giá và giá trị,False
+dumb,Con người,Tính cách,False
+dump,Nhà cửa,Xử lý rác,False
+dust,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+duty,Nghề nghiệp và công việc,Nơi làm việc,True
+duty,Kinh doanh và tài chính,Thuế,True
+dynamic,Con người,Tính cách,False
+eager,Con người,Cảm xúc,False
+ear,Con người,Khuôn mặt,False
+early,Khái niệm trừu tượng,Thời gian và thứ tự,False
+earn,Nghề nghiệp và công việc,Lương và phúc lợi,False
+earth,Môi trường và tự nhiên,Trái Đất,False
+ease,Con người,Cảm xúc,False
+east,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+eat,Đời sống hằng ngày,Ăn uống,False
+edge,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+edit,"Nghệ thuật, thiết kế và văn hóa",Thiết kế đồ họa,False
+educate,Học tập và giáo dục,Trường học,False
+efficiency,Khái niệm trừu tượng,Đánh giá và giá trị,False
+efficient,Khái niệm trừu tượng,Đánh giá và giá trị,False
+effort,Khái niệm trừu tượng,Hành động và xử lý,False
+egg,Thực phẩm,Trứng,False
+ego,Con người,Tính cách,False
+eight,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+elbow,Con người,Cơ thể,False
+electr,"Khoa học, công nghệ và kỹ thuật",Điện,False
+elegant,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+element,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+elephant,Môi trường và tự nhiên,Động vật có vú,False
+elevate,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+eleven,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+elite,Khái niệm trừu tượng,Đánh giá và giá trị,False
+else,Ngữ pháp và hư từ,Trợ từ,False
+embarrass,Con người,Cảm xúc,False
+emphasis,Khái niệm trừu tượng,Đánh giá và giá trị,False
+emphasize,Khái niệm trừu tượng,Hành động và xử lý,False
+empire,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+employ,Nghề nghiệp và công việc,Tìm việc,False
+empty,Khái niệm trừu tượng,Tính chất khác,False
+end,Khái niệm trừu tượng,Thời gian và thứ tự,False
+endorse,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+endure,Con người,Cảm xúc,False
+engage,Con người,Sự kiện đời người,False
+engine,Giao thông,Cơ khí ô tô,False
+enhance,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+enorm,Khái niệm trừu tượng,Mức độ và so sánh,False
+enter,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+enterprise,Kinh doanh và tài chính,Doanh nghiệp,False
+entire,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+entity,Khái niệm trừu tượng,Tính chất khác,False
+entrepreneur,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+episode,Giải trí và thời gian rảnh,Truyền hình,False
+equip,Thể thao,Trang thiết bị thể thao,False
+erect,Nghề nghiệp và công việc,Nghề kỹ thuật và xây dựng,False
+escalate,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+escape,"Pháp luật, an toàn và khẩn cấp",Sơ tán,False
+essay,Học tập và giáo dục,Bài tập,False
+essence,Khái niệm trừu tượng,Tính chất khác,False
+establish,Kinh doanh và tài chính,Doanh nghiệp,False
+eternal,Khái niệm trừu tượng,Thời gian và thứ tự,False
+ethic,Khái niệm trừu tượng,Đánh giá và giá trị,False
+even,Khái niệm trừu tượng,Mức độ và so sánh,False
+event,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+ever,Khái niệm trừu tượng,Thời gian và thứ tự,False
+every,Ngữ pháp và hư từ,Lượng từ,False
+evidence,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+evident,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+evil,Khái niệm trừu tượng,Đánh giá và giá trị,False
+evoke,Con người,Cảm xúc,False
+exact,Khái niệm trừu tượng,Đánh giá và giá trị,False
+exaggerate,Con người,Tính cách,False
+examine,Học tập và giáo dục,Bài kiểm tra,False
+example,Học tập và giáo dục,Nghiên cứu,False
+exceed,Khái niệm trừu tượng,Mức độ và so sánh,False
+excite,Con người,Cảm xúc,False
+excuse,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+execute,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+exert,Khái niệm trừu tượng,Hành động và xử lý,False
+exist,Khái niệm trừu tượng,Tính chất khác,False
+expand,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+expect,Con người,Cảm xúc,False
+expense,Kinh doanh và tài chính,Chi phí sinh hoạt,False
+experience,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+experiment,"Khoa học, công nghệ và kỹ thuật",Phòng thí nghiệm,False
+expert,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+expire,Kinh doanh và tài chính,Hợp đồng,False
+explain,Học tập và giáo dục,Lớp học,False
+explicit,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+exploit,Khái niệm trừu tượng,Hành động và xử lý,False
+explore,Du lịch và lưu trú,Tham quan,False
+extreme,Khái niệm trừu tượng,Mức độ và so sánh,False
+eye,Con người,Khuôn mặt,False
+fabric,Ngoại hình và trang phục,Chất liệu vải,False
+face,Con người,Khuôn mặt,False
+facilitate,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+fact,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+fade,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+fail,Học tập và giáo dục,Bài kiểm tra,False
+fair,Giải trí và thời gian rảnh,Sự kiện và lễ hội,True
+fair,Khái niệm trừu tượng,Đánh giá và giá trị,True
+faith,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+fake,Khái niệm trừu tượng,Đánh giá và giá trị,False
+fall,Môi trường và tự nhiên,Các mùa,True
+fall,Sức khỏe,Chấn thương,True
+fame,Khái niệm trừu tượng,Đánh giá và giá trị,False
+family,Con người,Gia đình,False
+fan,Thể thao,Thể thao chung,True
+fan,Nhà cửa,Thiết bị gia dụng,True
+fancy,Khái niệm trừu tượng,Đánh giá và giá trị,False
+fantasy,Con người,Cảm xúc,False
+far,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+fare,Giao thông,Taxi và gọi xe,False
+farm,Môi trường và tự nhiên,Nông nghiệp,False
+fascinate,Con người,Cảm xúc,False
+fashion,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+fast,Khái niệm trừu tượng,Mức độ và so sánh,True
+fast,Sức khỏe,Cơ thể và sức khỏe,True
+fat,Sức khỏe,Cơ thể và sức khỏe,False
+fate,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+father,Con người,Gia đình,False
+fault,Khái niệm trừu tượng,Đánh giá và giá trị,False
+favour,Con người,Mối quan hệ,False
+fear,Con người,Cảm xúc,False
+feather,Môi trường và tự nhiên,Chim,False
+feature,Khái niệm trừu tượng,Tính chất khác,False
+feed,Đời sống hằng ngày,Chăm sóc trẻ nhỏ,False
+feel,Con người,Cảm xúc,False
+fellow,Con người,Mối quan hệ,False
+fence,Nhà cửa,Vườn sân trong,False
+fever,Sức khỏe,Triệu chứng,False
+few,Ngữ pháp và hư từ,Lượng từ,False
+fibre,Thực phẩm,Ngũ cốc,False
+field,Thể thao,Sân thi đấu,False
+fierce,Con người,Tính cách,False
+fight,Thể thao,Thể thao đối kháng,False
+figure,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+figure,Con người,Ngoại hình,True
+fill,Khái niệm trừu tượng,Hành động và xử lý,False
+film,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+filter,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,False
+final,Thể thao,Luật thi đấu,False
+finance,Kinh doanh và tài chính,Đầu tư,False
+find,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+fine,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+fine,Khái niệm trừu tượng,Đánh giá và giá trị,True
+finger,Con người,Bàn tay và bàn chân,False
+finish,Khái niệm trừu tượng,Thời gian và thứ tự,False
+fire,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,True
+fire,Nghề nghiệp và công việc,Tìm việc,True
+firm,Kinh doanh và tài chính,Doanh nghiệp,False
+first,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+fish,Thực phẩm,Cá,False
+fit,Sức khỏe,Cơ thể và sức khỏe,True
+fit,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,True
+five,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+fix,Nhà cửa,Sửa chữa và bảo trì,False
+flag,"Nghệ thuật, thiết kế và văn hóa",Biểu tượng và biển hiệu,False
+flame,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,False
+flash,Giải trí và thời gian rảnh,Máy ảnh,False
+flat,Nhà cửa,Các loại nhà,True
+flat,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,True
+flavor,Thực phẩm,Gia vị,False
+flaw,Khái niệm trừu tượng,Đánh giá và giá trị,False
+fleet,Giao thông,Xe tải và vận chuyển,False
+flesh,Con người,Cơ thể,False
+flight,Giao thông,Máy bay,False
+float,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+flood,"Pháp luật, an toàn và khẩn cấp",Bão lũ,False
+floor,Nhà cửa,Ngôi nhà,True
+floor,Giải trí và thời gian rảnh,Sân khấu,True
+flour,Thực phẩm,Bánh mì và bột,False
+flourish,Môi trường và tự nhiên,Cây,False
+flow,Môi trường và tự nhiên,"Sông, hồ và thác nước",True
+flow,Sức khỏe,Cơ thể và sức khỏe,True
+flower,Môi trường và tự nhiên,Cây có hoa,False
+flu,Sức khỏe,Bệnh tật,False
+fluid,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+fly,Môi trường và tự nhiên,Động vật không xương sống,True
+fly,Giao thông,Máy bay,True
+fold,Ngoại hình và trang phục,Giặt và bảo quản quần áo,False
+folk,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+follow,Giải trí và thời gian rảnh,Mạng xã hội,False
+fond,Con người,Cảm xúc,False
+food,Thực phẩm,An toàn thực phẩm,False
+fool,Con người,Tính cách,False
+foot,Con người,Bàn tay và bàn chân,False
+for,Ngữ pháp và hư từ,Giới từ,False
+forbid,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+force,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+foreign,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+forest,Môi trường và tự nhiên,Rừng,False
+forge,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+forget,Con người,Tính cách,False
+forgive,Con người,Mối quan hệ,False
+fork,Nhà cửa,Đồ nội thất,False
+form,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,True
+form,Sức khỏe,Cơ thể và sức khỏe,True
+formal,Ngoại hình và trang phục,Quần áo công sở,False
+former,Khái niệm trừu tượng,Thời gian và thứ tự,False
+forth,Khái niệm trừu tượng,Thời gian và thứ tự,False
+fortune,Khái niệm trừu tượng,Đánh giá và giá trị,False
+forward,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+fossil,Môi trường và tự nhiên,Địa chất,False
+found,Kinh doanh và tài chính,Doanh nghiệp,False
+four,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+fragile,Khái niệm trừu tượng,Tính chất khác,False
+fragment,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+frame,Nhà cửa,Trang trí nhà cửa,False
+franchise,Kinh doanh và tài chính,Doanh nghiệp,False
+fraud,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+free,Mua sắm,Khuyến mãi và giảm giá,False
+freeze,Thực phẩm,Thực phẩm đông lạnh,False
+frequent,Khái niệm trừu tượng,Thời gian và thứ tự,False
+fresh,Thực phẩm,Bảo quản thực phẩm,False
+friend,Con người,Mối quan hệ,False
+frog,Môi trường và tự nhiên,Lưỡng cư,False
+from,Ngữ pháp và hư từ,Giới từ,False
+front,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+front,Môi trường và tự nhiên,Thời tiết,True
+fruit,Thực phẩm,Trái cây,False
+frustrate,Con người,Cảm xúc,False
+fry,Đời sống hằng ngày,Nấu ăn,False
+fuel,Giao thông,Trạm xăng,False
+fulfil,Khái niệm trừu tượng,Hành động và xử lý,False
+full,Khái niệm trừu tượng,Mức độ và so sánh,False
+fun,Giải trí và thời gian rảnh,Hoạt động ngoài trời,False
+function,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+fund,Kinh doanh và tài chính,Đầu tư,False
+fur,Môi trường và tự nhiên,Động vật có vú,False
+further,Khái niệm trừu tượng,Mức độ và so sánh,False
+future,Khái niệm trừu tượng,Thời gian và thứ tự,False
+gain,Kinh doanh và tài chính,Đầu tư,False
+gallon,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+gamble,Giải trí và thời gian rảnh,Trò chơi bài,False
+game,Giải trí và thời gian rảnh,Trò chơi bàn,True
+game,Thể thao,Thể thao chung,True
+gang,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+gap,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+garden,Nhà cửa,Vườn sân trong,False
+gas,Giao thông,Trạm xăng,True
+gas,"Khoa học, công nghệ và kỹ thuật",Hóa học,True
+gas,Con người,Hệ cơ thể,True
+gate,Du lịch và lưu trú,Sân bay,False
+gather,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+gay,Con người,Mối quan hệ,False
+gaze,Con người,Cảm xúc,False
+gear,Thể thao,Trang thiết bị thể thao,False
+gen,"Khoa học, công nghệ và kỹ thuật",Sinh học,False
+gender,Con người,Ngoại hình,False
+generous,Con người,Tính cách,False
+gentle,Con người,Tính cách,False
+genuine,Khái niệm trừu tượng,Đánh giá và giá trị,False
+get,Khái niệm trừu tượng,Hành động và xử lý,False
+ghost,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+giant,Khái niệm trừu tượng,Mức độ và so sánh,False
+girl,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+give,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+glad,Con người,Cảm xúc,False
+glance,Con người,Cảm xúc,False
+glass,Nhà cửa,Đồ nội thất,False
+globe,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+glory,Khái niệm trừu tượng,Đánh giá và giá trị,False
+go,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+goal,Thể thao,Bóng đá,False
+god,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+gold,Kinh doanh và tài chính,Đầu tư,False
+golf,Thể thao,Golf,False
+good,Khái niệm trừu tượng,Đánh giá và giá trị,False
+gorgeous,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+govern,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+grab,Khái niệm trừu tượng,Hành động và xử lý,False
+grace,Con người,Tính cách,False
+grade,Học tập và giáo dục,Điểm số và đánh giá,True
+grade,Kinh doanh và tài chính,Sản phẩm và dịch vụ,True
+graduate,Học tập và giáo dục,Bằng cấp,False
+grain,Thực phẩm,Ngũ cốc,True
+grain,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+grand,Khái niệm trừu tượng,Mức độ và so sánh,False
+grasp,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+grass,Môi trường và tự nhiên,Cây,True
+grass,Thể thao,Golf,True
+grave,Cộng đồng và đô thị,Nghĩa trang,False
+great,Khái niệm trừu tượng,Đánh giá và giá trị,False
+green,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+grey,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+grid,"Khoa học, công nghệ và kỹ thuật",Điện,False
+grind,Đời sống hằng ngày,Nấu ăn,False
+grip,Thể thao,Trang thiết bị thể thao,False
+gross,Kinh doanh và tài chính,Doanh thu và lợi nhuận,False
+ground,Môi trường và tự nhiên,Trái Đất,True
+ground,Khái niệm trừu tượng,Nguyên nhân và mục đích,True
+ground,"Khoa học, công nghệ và kỹ thuật",Điện,True
+group,Con người,Mối quan hệ,False
+grow,Môi trường và tự nhiên,Cây,False
+guard,Nghề nghiệp và công việc,Nghề công vụ và an ninh,True
+guard,Thể thao,Bóng rổ,True
+guess,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+guest,Du lịch và lưu trú,Lễ tân,False
+guide,Du lịch và lưu trú,Hướng dẫn viên,False
+guilt,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+guitar,Giải trí và thời gian rảnh,Nhạc cụ,False
+gun,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+gut,Con người,Nội tạng,False
+gym,Thể thao,Thể lực và tập luyện,False
+habit,Đời sống hằng ngày,Thói quen hằng ngày,False
+hail,Môi trường và tự nhiên,Thời tiết,False
+hair,Ngoại hình và trang phục,Tóc,False
+hall,Nhà cửa,Các phòng trong nhà,False
+halt,Giao thông,Đường sá,False
+hand,Con người,Bàn tay và bàn chân,True
+hand,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",True
+handle,Khái niệm trừu tượng,Hành động và xử lý,False
+hang,Nhà cửa,Trang trí nhà cửa,False
+happy,Con người,Cảm xúc,False
+harbor,Giao thông,Cảng,False
+hard,Khái niệm trừu tượng,Khả năng và cần thiết,False
+harm,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+harsh,Môi trường và tự nhiên,Khí hậu,False
+harvest,Môi trường và tự nhiên,Nông nghiệp,False
+hat,Ngoại hình và trang phục,Phụ kiện,False
+hate,Con người,Cảm xúc,False
+haunt,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+hazard,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+head,Con người,Khuôn mặt,True
+head,Nghề nghiệp và công việc,Nơi làm việc,True
+heal,Sức khỏe,Bệnh tật,False
+health,Sức khỏe,Cơ thể và sức khỏe,False
+hear,Con người,Khuôn mặt,False
+heart,Con người,Nội tạng,False
+heat,Môi trường và tự nhiên,Khí hậu,False
+heaven,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+heavy,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+heel,Ngoại hình và trang phục,Giày dép,False
+height,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+hell,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+help,Ngôn ngữ hằng ngày,Nhu cầu và yêu cầu thường gặp,False
+hence,Ngữ pháp và hư từ,Liên từ,False
+her,Ngữ pháp và hư từ,Đại từ,False
+herb,Thực phẩm,Thảo mộc,False
+here,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+hero,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+hide,Khái niệm trừu tượng,Hành động và xử lý,False
+high,Khái niệm trừu tượng,Mức độ và so sánh,False
+hill,Môi trường và tự nhiên,Núi và cảnh quan,False
+him,Ngữ pháp và hư từ,Đại từ,False
+hip,Con người,Cơ thể,False
+hire,Nghề nghiệp và công việc,Tìm việc,False
+his,Ngữ pháp và hư từ,Đại từ,False
+hit,Thể thao,Bóng chày,False
+hobby,Giải trí và thời gian rảnh,Sở thích thủ công,False
+hold,Khái niệm trừu tượng,Hành động và xử lý,False
+hole,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+hollow,Khái niệm trừu tượng,Tính chất khác,False
+holy,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+home,Nhà cửa,Ngôi nhà,False
+honest,Con người,Tính cách,False
+honor,Con người,Tính cách,False
+hook,Nhà cửa,Đồ nội thất,False
+hope,Con người,Cảm xúc,False
+horn,Giao thông,Bộ điều khiển ô tô,False
+horse,Thể thao,Cưỡi ngựa,False
+hospital,Sức khỏe,Bệnh viện,False
+host,Giải trí và thời gian rảnh,Sự kiện và lễ hội,True
+host,"Khoa học, công nghệ và kỹ thuật",Internet,True
+hostile,Con người,Cảm xúc,False
+hot,Môi trường và tự nhiên,Khí hậu,False
+hotel,Du lịch và lưu trú,Khách sạn,False
+hour,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+house,Nhà cửa,Ngôi nhà,False
+how,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+huge,Khái niệm trừu tượng,Mức độ và so sánh,False
+human,Con người,Cơ thể,False
+humble,Con người,Tính cách,False
+humor,Con người,Tính cách,False
+hundred,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+hungry,Đời sống hằng ngày,Ăn uống,False
+hunt,Giải trí và thời gian rảnh,Hoạt động ngoài trời,False
+hurry,Đời sống hằng ngày,Thói quen hằng ngày,False
+hurt,Sức khỏe,Chấn thương,False
+husband,Con người,Gia đình,False
+ice,Thực phẩm,Bánh và món tráng miệng,False
+idea,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+ideal,Khái niệm trừu tượng,Đánh giá và giá trị,False
+idiot,Con người,Tính cách,False
+ignore,Con người,Mối quan hệ,False
+ill,Sức khỏe,Bệnh tật,False
+illustrate,"Nghệ thuật, thiết kế và văn hóa",Vẽ và phác thảo,False
+image,"Nghệ thuật, thiết kế và văn hóa",Nhiếp ảnh,False
+imagine,Con người,Cảm xúc,False
+immediate,Khái niệm trừu tượng,Thời gian và thứ tự,False
+immense,Khái niệm trừu tượng,Mức độ và so sánh,False
+immune,Sức khỏe,Cơ thể và sức khỏe,False
+improve,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+in,Ngữ pháp và hư từ,Giới từ,False
+incentive,Nghề nghiệp và công việc,Lương và phúc lợi,False
+incur,Kinh doanh và tài chính,Chi phí sinh hoạt,False
+index,Học tập và giáo dục,Sách giáo khoa,False
+indicate,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+indigenous,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+indulge,Con người,Cảm xúc,False
+industry,Kinh doanh và tài chính,Doanh nghiệp,False
+infant,Sức khỏe,Trẻ sơ sinh,False
+infer,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+inform,Dịch vụ,Dịch vụ khách hàng,False
+injure,Sức khỏe,Chấn thương,False
+ink,Học tập và giáo dục,Đồ dùng học tập,False
+insect,Môi trường và tự nhiên,Động vật không xương sống,False
+insert,"Khoa học, công nghệ và kỹ thuật",Máy tính,False
+instance,Khái niệm trừu tượng,Tính chất khác,False
+instant,Khái niệm trừu tượng,Thời gian và thứ tự,False
+instinct,Con người,Tính cách,False
+instrument,Giải trí và thời gian rảnh,Nhạc cụ,False
+insult,Con người,Mối quan hệ,False
+intense,Khái niệm trừu tượng,Mức độ và so sánh,False
+interest,Kinh doanh và tài chính,Lãi suất,True
+interest,Giải trí và thời gian rảnh,Sở thích thủ công,True
+intermediate,Học tập và giáo dục,Học ngoại ngữ,False
+interpret,Học tập và giáo dục,Học ngoại ngữ,False
+interview,Nghề nghiệp và công việc,Phỏng vấn xin việc,False
+intrigue,Con người,Cảm xúc,False
+invade,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+investigate,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+invite,Ngôn ngữ hằng ngày,Chào hỏi và giới thiệu bản thân,False
+invoke,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+iron,Nhà cửa,Thiết bị gia dụng,True
+iron,"Khoa học, công nghệ và kỹ thuật",Vật liệu,True
+island,Môi trường và tự nhiên,Biển và đại dương,False
+isolate,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+issue,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+it,Ngữ pháp và hư từ,Đại từ,False
+item,Mua sắm,Mua sắm trực tuyến,False
+jacket,Ngoại hình và trang phục,Quần áo mùa đông,False
+jail,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+jam,Giao thông,Đường sá,True
+jam,Thực phẩm,Sốt và gia vị phết,True
+jazz,Giải trí và thời gian rảnh,Phong cách âm nhạc,False
+jet,Giao thông,Máy bay,True
+jet,Nhà cửa,Phòng tắm,True
+job,Nghề nghiệp và công việc,Tìm việc,False
+join,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+joke,Con người,Tính cách,True
+joke,Giải trí và thời gian rảnh,Sự kiện và lễ hội,True
+journey,Du lịch và lưu trú,Lập kế hoạch chuyến đi,False
+joy,Con người,Cảm xúc,False
+judge,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+juice,Ăn uống bên ngoài,Nước ép và sữa lắc,False
+jump,Thể thao,Điền kinh,False
+just,Khái niệm trừu tượng,Đánh giá và giá trị,False
+keen,Con người,Cảm xúc,False
+keep,Khái niệm trừu tượng,Hành động và xử lý,False
+key,Nhà cửa,An ninh nhà ở,True
+key,Giải trí và thời gian rảnh,Nhạc cụ,True
+key,Khái niệm trừu tượng,Đánh giá và giá trị,True
+kick,Thể thao,Bóng đá,False
+kidnap,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+kill,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+kind,Con người,Tính cách,True
+kind,Khái niệm trừu tượng,Tính chất khác,True
+king,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+kiss,Con người,Mối quan hệ,False
+kitchen,Nhà cửa,Nhà bếp,False
+knee,Con người,Khớp,False
+knife,Nhà cửa,Đồ nội thất,False
+knock,Nhà cửa,Các phòng trong nhà,False
+know,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+labor,Nghề nghiệp và công việc,Nơi làm việc,False
+ladder,Nhà cửa,Sửa chữa và bảo trì,False
+lady,Con người,Nữ giới,False
+lamp,Nhà cửa,Đồ nội thất,False
+land,Môi trường và tự nhiên,Trái Đất,True
+land,Giao thông,Máy bay,True
+lap,Thể thao,Điền kinh,False
+large,Khái niệm trừu tượng,Mức độ và so sánh,False
+last,Khái niệm trừu tượng,Thời gian và thứ tự,True
+last,Ngoại hình và trang phục,Giày dép,True
+late,Khái niệm trừu tượng,Thời gian và thứ tự,False
+latter,Khái niệm trừu tượng,Thời gian và thứ tự,False
+laugh,Con người,Cảm xúc,False
+launch,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+law,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+lay,Khái niệm trừu tượng,Hành động và xử lý,False
+lazy,Con người,Tính cách,False
+lead,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+leaf,Môi trường và tự nhiên,Cây,False
+league,Thể thao,Thể thao chung,False
+leak,Nhà cửa,Hệ thống điện và nước,False
+lean,Sức khỏe,Cơ thể và sức khỏe,False
+leap,Thể thao,Điền kinh,False
+learn,Học tập và giáo dục,Kỹ năng học tập,False
+least,Khái niệm trừu tượng,Mức độ và so sánh,False
+leather,Ngoại hình và trang phục,Chất liệu vải,False
+leave,Nghề nghiệp và công việc,Nghỉ phép và thời gian làm việc,True
+leave,Khái niệm trừu tượng,Hành động và xử lý,True
+left,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+leg,Con người,Bàn tay và bàn chân,False
+legal,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+legend,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+leisure,Giải trí và thời gian rảnh,Hoạt động ngoài trời,False
+lemon,Thực phẩm,Trái cây,False
+lend,Kinh doanh và tài chính,Khoản vay,False
+length,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+lesbian,Con người,Mối quan hệ,False
+less,Khái niệm trừu tượng,Mức độ và so sánh,False
+let,Ngữ pháp và hư từ,Trợ từ,False
+lethal,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+letter,Dịch vụ,Bưu điện,True
+letter,Học tập và giáo dục,Học ngoại ngữ,True
+level,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+level,Nhà cửa,Ngôi nhà,True
+liable,Kinh doanh và tài chính,Bảo hiểm,False
+library,Học tập và giáo dục,Thư viện,False
+licence,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+license,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+lie,Con người,Tính cách,True
+lie,Sức khỏe,Cơ thể và sức khỏe,True
+life,Con người,Sự kiện đời người,False
+lift,Khái niệm trừu tượng,Hành động và xử lý,False
+light,Nhà cửa,Hệ thống điện và nước,True
+light,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+like,Con người,Cảm xúc,False
+limb,Con người,Cơ thể,False
+limit,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+line,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,True
+line,Giao thông,Tàu điện ngầm,True
+linger,Khái niệm trừu tượng,Thời gian và thứ tự,False
+link,"Khoa học, công nghệ và kỹ thuật",Internet,False
+lion,Môi trường và tự nhiên,Động vật có vú,False
+lip,Con người,Khuôn mặt,False
+list,Đời sống hằng ngày,Mua sắm hằng ngày,True
+list,Giao thông,Tàu thuyền,True
+listen,Giải trí và thời gian rảnh,Phong cách âm nhạc,False
+litre,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+litter,Nhà cửa,Xử lý rác,False
+little,Khái niệm trừu tượng,Mức độ và so sánh,False
+live,Nhà cửa,Ngôi nhà,True
+live,Giải trí và thời gian rảnh,Truyền hình,True
+liver,Con người,Nội tạng,False
+load,Giao thông,Xe tải và vận chuyển,False
+loan,Kinh doanh và tài chính,Khoản vay,False
+lobby,Du lịch và lưu trú,Lễ tân,False
+lock,Nhà cửa,An ninh nhà ở,True
+lock,Giao thông,Cảng,True
+log,"Khoa học, công nghệ và kỹ thuật",Máy tính,True
+log,"Khoa học, công nghệ và kỹ thuật",Vật liệu,True
+logic,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+long,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+look,Con người,Ngoại hình,False
+loom,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+loop,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+loose,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+lord,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+lose,Thể thao,Luật thi đấu,False
+loud,Khái niệm trừu tượng,Mức độ và so sánh,False
+love,Con người,Mối quan hệ,False
+low,Khái niệm trừu tượng,Mức độ và so sánh,False
+loyal,Con người,Tính cách,False
+luck,Khái niệm trừu tượng,Đánh giá và giá trị,False
+lunch,Ăn uống bên ngoài,Bữa trưa,False
+luxury,Mua sắm,Trung tâm thương mại,False
+lyric,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+machine,"Khoa học, công nghệ và kỹ thuật",Cơ khí,False
+mad,Con người,Cảm xúc,False
+magic,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+mail,Dịch vụ,Bưu điện,False
+main,Khái niệm trừu tượng,Đánh giá và giá trị,False
+maintain,Nhà cửa,Sửa chữa và bảo trì,False
+major,Học tập và giáo dục,Các môn học,True
+major,Nghề nghiệp và công việc,Nghề công vụ và an ninh,True
+make,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+male,Con người,Nam giới,False
+man,Con người,Nam giới,False
+manage,Nghề nghiệp và công việc,Nơi làm việc,False
+manifest,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+manipulate,Con người,Mối quan hệ,False
+manner,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+march,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+margin,Kinh doanh và tài chính,Doanh thu và lợi nhuận,False
+marine,Môi trường và tự nhiên,Biển và đại dương,False
+mark,Học tập và giáo dục,Điểm số và đánh giá,True
+mark,"Nghệ thuật, thiết kế và văn hóa",Biểu tượng và biển hiệu,True
+market,Cộng đồng và đô thị,Chợ,False
+marriage,Con người,Sự kiện đời người,False
+marry,Con người,Sự kiện đời người,False
+martial,Thể thao,Võ thuật,False
+mask,Sức khỏe,Sơ cứu,False
+mass,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+mass,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,True
+master,Học tập và giáo dục,Bằng cấp,True
+master,Con người,Mối quan hệ,True
+match,Thể thao,Thể thao chung,True
+match,Nhà cửa,Đồ nội thất,True
+mate,Con người,Mối quan hệ,False
+material,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+matter,"Khoa học, công nghệ và kỹ thuật",Vật lý,True
+matter,Khái niệm trừu tượng,Đánh giá và giá trị,True
+mature,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+may,Ngữ pháp và hư từ,Trợ từ,False
+mayor,Cộng đồng và đô thị,Cơ quan hành chính,False
+meal,Ăn uống bên ngoài,Bữa tối,False
+mean,Khái niệm trừu tượng,Nhận thức và ý nghĩa,True
+mean,Con người,Tính cách,True
+measure,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+meat,Thực phẩm,Thịt,False
+medal,Thể thao,Thể thao chung,False
+medicine,Sức khỏe,Thuốc và dạng thuốc,False
+medium,"Nghệ thuật, thiết kế và văn hóa",Vật liệu nghệ thuật,False
+meet,Nghề nghiệp và công việc,Cuộc họp,False
+melt,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+member,Con người,Mối quan hệ,False
+mental,Sức khỏe,Sức khỏe tinh thần,False
+mention,Con người,Mối quan hệ,False
+merchant,Kinh doanh và tài chính,Mua bán và giao dịch,False
+mercy,Con người,Cảm xúc,False
+mere,Khái niệm trừu tượng,Mức độ và so sánh,False
+merge,Kinh doanh và tài chính,Doanh nghiệp,False
+merit,Khái niệm trừu tượng,Đánh giá và giá trị,False
+mess,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+metal,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+method,Học tập và giáo dục,Kỹ năng học tập,False
+metre,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+middle,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+midst,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+might,Ngữ pháp và hư từ,Trợ từ,False
+mild,Môi trường và tự nhiên,Khí hậu,False
+mile,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+militia,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+milk,Thực phẩm,Sữa và sản phẩm từ sữa,False
+mill,Kinh doanh và tài chính,Doanh nghiệp,False
+million,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+mind,Sức khỏe,Sức khỏe tinh thần,False
+mine,Ngữ pháp và hư từ,Đại từ,True
+mine,"Khoa học, công nghệ và kỹ thuật",Vật liệu,True
+mineral,Môi trường và tự nhiên,Khoáng vật,False
+minister,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+minor,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,True
+minor,Học tập và giáo dục,Các môn học,True
+minute,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+miracle,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+miss,Con người,Cảm xúc,False
+mission,Nghề nghiệp và công việc,Nơi làm việc,False
+mix,Đời sống hằng ngày,Nấu ăn,False
+mob,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+mobile,"Khoa học, công nghệ và kỹ thuật",Điện thoại thông minh,False
+mode,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+model,"Nghệ thuật, thiết kế và văn hóa",Thiết kế đồ họa,True
+model,Giao thông,Các loại ô tô,True
+moderate,Khái niệm trừu tượng,Mức độ và so sánh,False
+modern,"Nghệ thuật, thiết kế và văn hóa",Phong cách kiến trúc,False
+modest,Con người,Tính cách,False
+modify,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+moment,Khái niệm trừu tượng,Thời gian và thứ tự,False
+money,Ngôn ngữ hằng ngày,Tiền tệ và mệnh giá,False
+monk,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+monster,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+month,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+monument,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+mood,Con người,Cảm xúc,False
+moon,Môi trường và tự nhiên,Không gian,False
+moral,Khái niệm trừu tượng,Đánh giá và giá trị,False
+more,Ngữ pháp và hư từ,Lượng từ,False
+morning,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+mortgage,Kinh doanh và tài chính,Khoản vay,False
+most,Ngữ pháp và hư từ,Lượng từ,False
+mother,Con người,Gia đình,False
+motion,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+motive,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+motor,Giao thông,Cơ khí ô tô,False
+mount,Môi trường và tự nhiên,Núi và cảnh quan,True
+mount,"Khoa học, công nghệ và kỹ thuật",Cơ khí,True
+mountain,Môi trường và tự nhiên,Núi và cảnh quan,False
+mouse,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,False
+mouth,Con người,Khuôn mặt,False
+move,Nhà cửa,Ngôi nhà,False
+much,Ngữ pháp và hư từ,Lượng từ,False
+mud,Môi trường và tự nhiên,Địa chất,False
+mum,Con người,Gia đình,False
+municipal,Cộng đồng và đô thị,Cơ quan hành chính,False
+murder,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+muscle,Con người,Cơ bắp,False
+music,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+must,Ngữ pháp và hư từ,Trợ từ,False
+mutual,Con người,Mối quan hệ,False
+my,Ngữ pháp và hư từ,Đại từ,False
+myth,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+nail,Ngoại hình và trang phục,Chăm sóc móng,False
+naked,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+name,Ngôn ngữ hằng ngày,Thông tin cá nhân,True
+name,Kinh doanh và tài chính,Sản phẩm và dịch vụ,True
+narrow,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+nasty,Khái niệm trừu tượng,Đánh giá và giá trị,False
+nation,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+native,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+nature,Môi trường và tự nhiên,Bảo tồn thiên nhiên,False
+near,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+neat,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+neck,Con người,Cơ thể,False
+need,Ngôn ngữ hằng ngày,Nhu cầu và yêu cầu thường gặp,False
+needle,Ngoại hình và trang phục,Sửa chữa quần áo,False
+neglect,Con người,Mối quan hệ,False
+neighbour,Cộng đồng và đô thị,Khu dân cư,False
+nerve,Con người,Hệ cơ thể,False
+nest,Môi trường và tự nhiên,Chim,False
+net,Thể thao,Bóng chuyền,True
+net,Kinh doanh và tài chính,Doanh thu và lợi nhuận,True
+never,Khái niệm trừu tượng,Thời gian và thứ tự,False
+new,Khái niệm trừu tượng,Thời gian và thứ tự,False
+nice,Khái niệm trừu tượng,Đánh giá và giá trị,False
+night,Môi trường và tự nhiên,Ngày và đêm,False
+nine,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+no,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+noble,Con người,Tính cách,False
+noise,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+noon,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+nor,Ngữ pháp và hư từ,Liên từ,False
+norm,Khái niệm trừu tượng,Đánh giá và giá trị,False
+north,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+nose,Con người,Khuôn mặt,False
+not,Ngữ pháp và hư từ,Trợ từ,False
+note,Học tập và giáo dục,Kỹ năng học tập,True
+note,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,True
+note,Kinh doanh và tài chính,Tiền mặt và thẻ,True
+notice,Dịch vụ,Dịch vụ công,False
+notion,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+novel,Giải trí và thời gian rảnh,Đọc sách,True
+novel,Khái niệm trừu tượng,Đánh giá và giá trị,True
+now,Khái niệm trừu tượng,Thời gian và thứ tự,False
+number,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+nurse,Sức khỏe,Điều dưỡng,False
+nut,Thực phẩm,Hạt và trái khô,False
+obey,Con người,Tính cách,False
+oblige,Khái niệm trừu tượng,Khả năng và cần thiết,False
+observe,Môi trường và tự nhiên,Thiên văn học,False
+obsess,Con người,Cảm xúc,False
+obvious,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+occasion,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+occupy,Nhà cửa,Ngôi nhà,False
+occur,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+ocean,Môi trường và tự nhiên,Biển và đại dương,False
+odd,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+of,Ngữ pháp và hư từ,Giới từ,False
+off,Ngữ pháp và hư từ,Giới từ,False
+offence,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+offend,Con người,Mối quan hệ,False
+office,Nghề nghiệp và công việc,Văn phòng,True
+office,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,True
+often,Khái niệm trừu tượng,Thời gian và thứ tự,False
+oil,Thực phẩm,Dầu ăn,False
+old,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+on,Ngữ pháp và hư từ,Giới từ,False
+one,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+open,Mua sắm,Siêu thị,False
+opera,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,False
+opinion,Khái niệm trừu tượng,Đánh giá và giá trị,False
+oral,Sức khỏe,Nha sĩ,False
+orange,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+order,Ăn uống bên ngoài,Gọi món,True
+order,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+order,Mua sắm,Mua sắm trực tuyến,True
+organ,Con người,Nội tạng,True
+organ,Giải trí và thời gian rảnh,Nhạc cụ,True
+origin,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+other,Ngữ pháp và hư từ,Đại từ,False
+our,Ngữ pháp và hư từ,Đại từ,False
+out,Ngữ pháp và hư từ,Giới từ,False
+over,Ngữ pháp và hư từ,Giới từ,False
+own,Nhà cửa,Ngôi nhà,False
+oxygen,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+pace,Thể thao,Điền kinh,False
+pack,Ngôn ngữ hằng ngày,Bao bì và vật chứa,True
+pack,Môi trường và tự nhiên,Động vật có vú,True
+pad,Học tập và giáo dục,Đồ dùng học tập,True
+pad,Thể thao,Trang thiết bị thể thao,True
+page,Học tập và giáo dục,Sách giáo khoa,True
+page,"Khoa học, công nghệ và kỹ thuật",Internet,True
+pain,Sức khỏe,Triệu chứng,False
+paint,"Nghệ thuật, thiết kế và văn hóa",Hội họa,False
+pair,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+palace,"Nghệ thuật, thiết kế và văn hóa",Kiến trúc,False
+pale,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+palm,Con người,Bàn tay và bàn chân,True
+palm,Môi trường và tự nhiên,Cây,True
+pan,Nhà cửa,Đồ nội thất,False
+panel,"Khoa học, công nghệ và kỹ thuật",Điện,True
+panel,Giải trí và thời gian rảnh,Trò chơi bài,True
+panic,Con người,Cảm xúc,False
+pant,Con người,Hệ cơ thể,False
+paper,Học tập và giáo dục,Đồ dùng học tập,False
+parallel,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+parent,Con người,Gia đình,False
+parish,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+park,Cộng đồng và đô thị,Công viên,True
+park,Giao thông,Bãi đỗ xe,True
+parliament,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+part,Khái niệm trừu tượng,Phạm vi và bộ phận,True
+part,Giải trí và thời gian rảnh,Sân khấu,True
+participate,Giải trí và thời gian rảnh,Sự kiện và lễ hội,False
+partner,Kinh doanh và tài chính,Công ty và phòng ban,False
+pass,Thể thao,Bóng đá,True
+pass,Du lịch và lưu trú,Đặt vé,True
+pass,Học tập và giáo dục,Bài kiểm tra,True
+passion,Con người,Cảm xúc,False
+passive,Con người,Tính cách,False
+past,Khái niệm trừu tượng,Thời gian và thứ tự,False
+pastor,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+patch,Ngoại hình và trang phục,Sửa chữa quần áo,False
+patent,Kinh doanh và tài chính,Hợp đồng,False
+patho,Sức khỏe,Bệnh tật,False
+patience,Con người,Tính cách,False
+patient,Sức khỏe,Bệnh viện,True
+patient,Con người,Tính cách,True
+patrol,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+patron,Kinh doanh và tài chính,Khách hàng,False
+pay,Nghề nghiệp và công việc,Lương và phúc lợi,False
+peace,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+peak,Môi trường và tự nhiên,Núi và cảnh quan,False
+peasant,Nghề nghiệp và công việc,Nghề nông nghiệp,False
+peculiar,Khái niệm trừu tượng,Đánh giá và giá trị,False
+peer,Con người,Mối quan hệ,False
+pen,Học tập và giáo dục,Đồ dùng học tập,True
+pen,Nhà cửa,Ga-ra và kho,True
+penny,Ngôn ngữ hằng ngày,Tiền tệ và mệnh giá,False
+pension,Nghề nghiệp và công việc,Lương và phúc lợi,False
+people,Con người,Cơ thể,False
+pepper,Thực phẩm,Gia vị,False
+perform,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,False
+period,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",True
+period,Sức khỏe,Sinh nở,True
+permit,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+person,Con người,Cơ thể,False
+personnel,Nghề nghiệp và công việc,Nơi làm việc,False
+persuade,Con người,Mối quan hệ,False
+pet,Môi trường và tự nhiên,Động vật có vú,False
+petition,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+petrol,Giao thông,Trạm xăng,False
+phon,"Khoa học, công nghệ và kỹ thuật",Điện thoại thông minh,False
+photo,Giải trí và thời gian rảnh,Nhiếp ảnh,False
+phrase,Học tập và giáo dục,Học ngoại ngữ,False
+piano,Giải trí và thời gian rảnh,Nhạc cụ,False
+pick,Khái niệm trừu tượng,Đánh giá và giá trị,False
+piece,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+pig,Môi trường và tự nhiên,Động vật có vú,False
+pile,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+pill,Sức khỏe,Thuốc và dạng thuốc,False
+pilot,Nghề nghiệp và công việc,Nghề vận tải,True
+pilot,Giải trí và thời gian rảnh,Truyền hình,True
+pin,Ngoại hình và trang phục,Phụ kiện,False
+pink,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+pipe,Nhà cửa,Hệ thống điện và nước,False
+pirate,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+pit,Môi trường và tự nhiên,Địa chất,True
+pit,Thực phẩm,Trái cây,True
+pitch,Thể thao,Sân thi đấu,True
+pitch,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,True
+pity,Con người,Cảm xúc,False
+place,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+plain,Môi trường và tự nhiên,Núi và cảnh quan,False
+plan,Du lịch và lưu trú,Lập kế hoạch chuyến đi,False
+plane,Giao thông,Máy bay,False
+planet,Môi trường và tự nhiên,Thiên văn học,False
+plant,Môi trường và tự nhiên,Cây,True
+plant,Kinh doanh và tài chính,Doanh nghiệp,True
+plastic,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+plate,Nhà cửa,Đồ nội thất,True
+plate,Giao thông,Ngoại thất ô tô,True
+play,Giải trí và thời gian rảnh,Hoạt động ngoài trời,True
+play,Giải trí và thời gian rảnh,Sân khấu,True
+plea,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+plead,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+please,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+plenty,Ngữ pháp và hư từ,Lượng từ,False
+plot,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+plug,Nhà cửa,Hệ thống điện và nước,False
+plunge,Thể thao,Thể thao dưới nước,False
+plus,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+pocket,Ngoại hình và trang phục,Chất liệu vải,False
+poet,Nghề nghiệp và công việc,Nghề sáng tạo và nghệ thuật,False
+point,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+point,Thể thao,Luật thi đấu,True
+poison,Sức khỏe,Sơ cứu,False
+pole,Thể thao,Trang thiết bị thể thao,True
+pole,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,True
+police,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+polite,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+poll,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+pond,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+pool,Thể thao,Bơi lội,True
+pool,Kinh doanh và tài chính,Đầu tư,True
+poor,Kinh doanh và tài chính,Ngân sách cá nhân,False
+pop,Giải trí và thời gian rảnh,Phong cách âm nhạc,False
+port,Giao thông,Cảng,False
+portion,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+portray,"Nghệ thuật, thiết kế và văn hóa",Hội họa,False
+pose,"Nghệ thuật, thiết kế và văn hóa",Nhiếp ảnh,False
+possess,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+possible,Khái niệm trừu tượng,Khả năng và cần thiết,False
+post,Dịch vụ,Bưu điện,True
+post,Giải trí và thời gian rảnh,Mạng xã hội,True
+post,Nghề nghiệp và công việc,Thông tin nghề nghiệp,True
+pot,Nhà cửa,Đồ nội thất,False
+pound,Ngôn ngữ hằng ngày,Tiền tệ và mệnh giá,True
+pound,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+pound,Khái niệm trừu tượng,Hành động và xử lý,True
+pour,Đời sống hằng ngày,Nấu ăn,False
+powder,Ngoại hình và trang phục,Trang điểm,False
+power,"Khoa học, công nghệ và kỹ thuật",Năng lượng,False
+praise,Con người,Mối quan hệ,False
+prayer,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+preach,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+precedent,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+precious,Khái niệm trừu tượng,Đánh giá và giá trị,False
+precise,Khái niệm trừu tượng,Đánh giá và giá trị,False
+prefer,Con người,Cảm xúc,False
+premier,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+prepare,Đời sống hằng ngày,Nấu ăn,False
+presence,Khái niệm trừu tượng,Tính chất khác,False
+present,Khái niệm trừu tượng,Thời gian và thứ tự,True
+present,Giải trí và thời gian rảnh,Sự kiện và lễ hội,True
+preside,Nghề nghiệp và công việc,Cuộc họp,False
+press,Nghề nghiệp và công việc,Nghề truyền thông,True
+press,Khái niệm trừu tượng,Hành động và xử lý,True
+pretend,Con người,Tính cách,False
+pretty,Ngoại hình và trang phục,Cơ thể và ngoại hình,False
+prevent,Sức khỏe,Bệnh tật,False
+previous,Khái niệm trừu tượng,Thời gian và thứ tự,False
+price,Mua sắm,Khuyến mãi và giảm giá,False
+priest,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+prim,Con người,Tính cách,False
+prince,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+principal,Học tập và giáo dục,Giáo viên và học sinh,False
+principle,Khái niệm trừu tượng,Đánh giá và giá trị,False
+print,"Nghệ thuật, thiết kế và văn hóa",Thiết kế đồ họa,False
+prior,Khái niệm trừu tượng,Thời gian và thứ tự,False
+prison,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+private,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+privilege,Khái niệm trừu tượng,Đánh giá và giá trị,False
+prize,Học tập và giáo dục,Bằng cấp,False
+prob,Khái niệm trừu tượng,Khả năng và cần thiết,False
+problem,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+proceed,Khái niệm trừu tượng,Hành động và xử lý,False
+profit,Kinh doanh và tài chính,Doanh thu và lợi nhuận,False
+profound,Khái niệm trừu tượng,Mức độ và so sánh,False
+program,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+promise,Con người,Mối quan hệ,False
+prompt,Khái niệm trừu tượng,Thời gian và thứ tự,False
+pronounce,Học tập và giáo dục,Học ngoại ngữ,False
+proof,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+proper,Khái niệm trừu tượng,Đánh giá và giá trị,False
+protect,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+protest,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+proud,Con người,Cảm xúc,False
+prove,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+province,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+provoke,Con người,Cảm xúc,False
+public,Cộng đồng và đô thị,Công trình công cộng,False
+publish,Nghề nghiệp và công việc,Nghề truyền thông,False
+pull,Khái niệm trừu tượng,Hành động và xử lý,False
+pulse,Sức khỏe,Cơ thể và sức khỏe,False
+punch,Thể thao,Thể thao đối kháng,True
+punch,Ăn uống bên ngoài,Đồ uống,True
+punk,Giải trí và thời gian rảnh,Phong cách âm nhạc,False
+purchase,Mua sắm,Mua sắm trực tuyến,False
+pure,Khái niệm trừu tượng,Đánh giá và giá trị,False
+purple,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+purpose,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+pursue,Khái niệm trừu tượng,Hành động và xử lý,False
+push,Khái niệm trừu tượng,Hành động và xử lý,False
+put,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+puzzle,Giải trí và thời gian rảnh,Trò chơi bàn,False
+qualify,Học tập và giáo dục,Bằng cấp,False
+quarter,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+queen,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+quest,Giải trí và thời gian rảnh,Trò chơi bàn,False
+question,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+quick,Khái niệm trừu tượng,Mức độ và so sánh,False
+quiet,Khái niệm trừu tượng,Mức độ và so sánh,False
+quit,Nghề nghiệp và công việc,Tìm việc,False
+quote,Học tập và giáo dục,Nghiên cứu,False
+race,Thể thao,Điền kinh,True
+race,Ngôn ngữ hằng ngày,Thông tin cá nhân,True
+radio,Giải trí và thời gian rảnh,Truyền hình,False
+rage,Con người,Cảm xúc,False
+raid,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+rail,Giao thông,Tàu hỏa,False
+rain,Môi trường và tự nhiên,Thời tiết,False
+raise,Nghề nghiệp và công việc,Lương và phúc lợi,False
+random,Khái niệm trừu tượng,Tính chất khác,False
+range,Khái niệm trừu tượng,Phạm vi và bộ phận,True
+range,Môi trường và tự nhiên,Núi và cảnh quan,True
+rank,Thể thao,Luật thi đấu,True
+rank,Nghề nghiệp và công việc,Nghề công vụ và an ninh,True
+rape,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+rapid,Khái niệm trừu tượng,Mức độ và so sánh,False
+rare,Khái niệm trừu tượng,Đánh giá và giá trị,False
+rat,Môi trường và tự nhiên,Động vật có vú,False
+rate,Kinh doanh và tài chính,Lãi suất,True
+rate,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+rational,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+raw,Thực phẩm,An toàn thực phẩm,False
+ray,"Khoa học, công nghệ và kỹ thuật",Vật lý,True
+ray,Sức khỏe,Bệnh viện,True
+reach,Khái niệm trừu tượng,Hành động và xử lý,False
+read,Giải trí và thời gian rảnh,Đọc sách,False
+ready,Khái niệm trừu tượng,Khả năng và cần thiết,False
+real,Khái niệm trừu tượng,Đánh giá và giá trị,False
+realize,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+rear,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+rear,Con người,Gia đình,True
+reason,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+rebel,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+recent,Khái niệm trừu tượng,Thời gian và thứ tự,False
+reckon,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+recommend,Mua sắm,Khuyến mãi và giảm giá,False
+record,Học tập và giáo dục,Điểm số và đánh giá,True
+record,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,True
+record,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,True
+recover,Sức khỏe,Bệnh tật,False
+recruit,Nghề nghiệp và công việc,Tìm việc,False
+red,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+refer,Học tập và giáo dục,Nghiên cứu,False
+refuge,"Pháp luật, an toàn và khẩn cấp",Sơ tán,False
+regard,Con người,Mối quan hệ,False
+region,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+register,Học tập và giáo dục,Trường học,False
+regret,Con người,Cảm xúc,False
+relate,Con người,Mối quan hệ,False
+relax,Đời sống hằng ngày,Chăm sóc bản thân,False
+release,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+relieve,Con người,Cảm xúc,False
+reluctant,Con người,Cảm xúc,False
+rely,Con người,Mối quan hệ,False
+remain,Khái niệm trừu tượng,Thời gian và thứ tự,False
+remark,Con người,Mối quan hệ,False
+remedy,Sức khỏe,Thuốc và dạng thuốc,False
+remember,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+remote,"Khoa học, công nghệ và kỹ thuật",Điện thoại thông minh,False
+rent,Nhà cửa,Các loại nhà,False
+repeat,Học tập và giáo dục,Kỹ năng học tập,False
+represent,Khái niệm trừu tượng,Quan hệ và ảnh hưởng,False
+republic,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,False
+rescue,"Pháp luật, an toàn và khẩn cấp",Cứu hộ,False
+reserve,Ăn uống bên ngoài,Nhà hàng,False
+reside,Nhà cửa,Ngôi nhà,False
+residue,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+resign,Nghề nghiệp và công việc,Tìm việc,False
+resource,Môi trường và tự nhiên,Bảo tồn thiên nhiên,False
+respect,Con người,Mối quan hệ,False
+respond,Dịch vụ,Dịch vụ khách hàng,False
+response,Dịch vụ,Dịch vụ khách hàng,False
+responsible,Con người,Tính cách,False
+rest,Đời sống hằng ngày,Chăm sóc bản thân,False
+restore,Nhà cửa,Sửa chữa và bảo trì,False
+result,Học tập và giáo dục,Điểm số và đánh giá,False
+retail,Mua sắm,Trung tâm thương mại,False
+retire,Nghề nghiệp và công việc,Nghỉ phép và thời gian làm việc,False
+retrieve,"Khoa học, công nghệ và kỹ thuật",Máy tính,False
+return,Mua sắm,Đổi trả và bảo hành,False
+reveal,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+reward,Nghề nghiệp và công việc,Lương và phúc lợi,False
+rhetoric,Học tập và giáo dục,Kỹ năng học tập,False
+rhythm,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+rich,Kinh doanh và tài chính,Đầu tư,False
+rid,Khái niệm trừu tượng,Hành động và xử lý,False
+ride,Giao thông,Taxi và gọi xe,False
+rifle,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+right,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,True
+right,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+ring,Ngoại hình và trang phục,Trang sức,True
+ring,Thể thao,Thể thao đối kháng,True
+riot,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+rip,Ngoại hình và trang phục,Sửa chữa quần áo,False
+rise,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+risk,Kinh doanh và tài chính,Bảo hiểm,False
+ritual,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+rival,Thể thao,Thể thao chung,False
+river,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+road,Giao thông,Đường sá,False
+rob,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+robust,Khái niệm trừu tượng,Đánh giá và giá trị,False
+rock,Môi trường và tự nhiên,Đá,True
+rock,Giải trí và thời gian rảnh,Phong cách âm nhạc,True
+rocket,Môi trường và tự nhiên,Thám hiểm không gian,False
+rod,Nhà cửa,Đồ nội thất,False
+role,"Nghệ thuật, thiết kế và văn hóa",Nghệ thuật biểu diễn,True
+role,Nghề nghiệp và công việc,Thông tin nghề nghiệp,True
+roll,Thể thao,Bóng bầu dục Mỹ,True
+roll,Thực phẩm,Bánh mì và bột,True
+romance,Con người,Mối quan hệ,False
+romantic,Con người,Mối quan hệ,False
+roof,Nhà cửa,Ngôi nhà,False
+room,Nhà cửa,Các phòng trong nhà,True
+room,Khái niệm trừu tượng,Phạm vi và bộ phận,True
+root,Môi trường và tự nhiên,Cây,True
+root,"Khoa học, công nghệ và kỹ thuật",Máy tính,True
+rope,Thể thao,Trang thiết bị thể thao,False
+rose,Môi trường và tự nhiên,Cây có hoa,True
+rose,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,True
+rotate,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+rough,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+round,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,True
+round,Thể thao,Golf,True
+routine,Đời sống hằng ngày,Thói quen hằng ngày,False
+row,Thể thao,Thể thao dưới nước,True
+row,Con người,Mối quan hệ,True
+rub,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+rubbish,Nhà cửa,Xử lý rác,False
+rude,Con người,Tính cách,False
+ruin,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+rule,Thể thao,Luật thi đấu,False
+run,Thể thao,Điền kinh,True
+run,"Khoa học, công nghệ và kỹ thuật",Phần mềm,True
+run,Nghề nghiệp và công việc,Nơi làm việc,True
+rural,Môi trường và tự nhiên,Nông nghiệp,False
+rush,Đời sống hằng ngày,Thói quen hằng ngày,False
+sack,Ngoại hình và trang phục,Túi xách,False
+sacro,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+sad,Con người,Cảm xúc,False
+safe,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+sail,Giao thông,Tàu thuyền,False
+saint,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+sake,Khái niệm trừu tượng,Nguyên nhân và mục đích,False
+sale,Mua sắm,Khuyến mãi và giảm giá,False
+salt,Thực phẩm,Gia vị,False
+same,Khái niệm trừu tượng,Mức độ và so sánh,False
+sample,"Khoa học, công nghệ và kỹ thuật",Phòng thí nghiệm,False
+sand,Giải trí và thời gian rảnh,Bãi biển,False
+sauce,Thực phẩm,Sốt và gia vị phết,False
+save,Kinh doanh và tài chính,Tiết kiệm,False
+say,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+scale,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+scale,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,True
+scan,Sức khỏe,Bệnh viện,False
+scandal,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+scare,Con người,Cảm xúc,False
+scatter,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+scene,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+scheme,Kinh doanh và tài chính,Đầu tư,False
+school,Học tập và giáo dục,Trường học,True
+school,Môi trường và tự nhiên,Cá,True
+scope,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+score,Học tập và giáo dục,Điểm số và đánh giá,False
+scratch,Sức khỏe,Chấn thương,False
+scream,Con người,Cảm xúc,False
+screen,"Khoa học, công nghệ và kỹ thuật",Phần cứng máy tính,True
+screen,Giải trí và thời gian rảnh,Phim và rạp chiếu,True
+screw,Nhà cửa,Sửa chữa và bảo trì,False
+script,Giải trí và thời gian rảnh,Sân khấu,False
+sea,Môi trường và tự nhiên,Biển và đại dương,False
+seal,Môi trường và tự nhiên,Động vật có vú,True
+seal,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,True
+search,"Khoa học, công nghệ và kỹ thuật",Internet,False
+season,Môi trường và tự nhiên,Các mùa,True
+season,Thực phẩm,Gia vị,True
+seat,Giao thông,Nội thất ô tô,False
+second,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",True
+second,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,True
+secret,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+secretary,Nghề nghiệp và công việc,Văn phòng,False
+secular,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+secure,Nhà cửa,An ninh nhà ở,False
+see,Con người,Khuôn mặt,False
+seed,Thực phẩm,Hạt giống,False
+seek,Nghề nghiệp và công việc,Tìm việc,False
+seem,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+segment,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+seize,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,False
+select,Khái niệm trừu tượng,Đánh giá và giá trị,False
+self,Con người,Tính cách,False
+sell,Mua sắm,Mua sắm trực tuyến,False
+send,Dịch vụ,Bưu điện,False
+senior,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+sense,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+sentence,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+sentence,Học tập và giáo dục,Học ngoại ngữ,True
+sequence,Khái niệm trừu tượng,Thời gian và thứ tự,False
+serious,Khái niệm trừu tượng,Đánh giá và giá trị,False
+serve,Ăn uống bên ngoài,Nhà hàng,False
+set,Giải trí và thời gian rảnh,Sân khấu,True
+set,Thể thao,Tennis,True
+settle,Nhà cửa,Ngôi nhà,False
+seven,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+several,Ngữ pháp và hư từ,Lượng từ,False
+severe,Sức khỏe,Triệu chứng,False
+sex,Con người,Sinh sản,False
+shade,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+shadow,Môi trường và tự nhiên,Ánh nắng,False
+shake,Con người,Cảm xúc,False
+shallow,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+shame,Con người,Cảm xúc,False
+shape,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+share,Kinh doanh và tài chính,Đầu tư,False
+sharp,Nhà cửa,Đồ nội thất,False
+shatter,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+shed,Nhà cửa,Ga-ra và kho,True
+shed,Con người,Cảm xúc,True
+sheep,Môi trường và tự nhiên,Động vật có vú,False
+sheet,Nhà cửa,Phòng ngủ,False
+shelf,Nhà cửa,Đồ nội thất,False
+shell,Môi trường và tự nhiên,Động vật không xương sống,False
+shelter,"Pháp luật, an toàn và khẩn cấp",Sơ tán,False
+shift,Nghề nghiệp và công việc,Nghỉ phép và thời gian làm việc,True
+shift,Khái niệm trừu tượng,Thay đổi và phát sinh,True
+shine,Môi trường và tự nhiên,Ánh nắng,False
+ship,Giao thông,Tàu thuyền,False
+shirt,Ngoại hình và trang phục,Quần áo nam,False
+shock,Sức khỏe,Chấn thương,False
+shoe,Ngoại hình và trang phục,Giày dép,False
+shoot,Giải trí và thời gian rảnh,Nhiếp ảnh,False
+shop,Mua sắm,Siêu thị,False
+shore,Môi trường và tự nhiên,Biển và đại dương,False
+short,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+shot,Sức khỏe,Sơ cứu,True
+shot,Thể thao,Golf,True
+shot,Giải trí và thời gian rảnh,Nhiếp ảnh,True
+show,Giải trí và thời gian rảnh,Truyền hình,False
+shower,Nhà cửa,Phòng tắm,False
+shrink,Ngoại hình và trang phục,Giặt và bảo quản quần áo,False
+shut,Nhà cửa,Các phòng trong nhà,False
+shy,Con người,Tính cách,False
+sick,Sức khỏe,Bệnh tật,False
+side,Khái niệm trừu tượng,Phạm vi và bộ phận,False
+sight,Con người,Khuôn mặt,False
+sign,"Nghệ thuật, thiết kế và văn hóa",Biểu tượng và biển hiệu,True
+sign,Sức khỏe,Triệu chứng,True
+silence,Con người,Cảm xúc,False
+silent,Khái niệm trừu tượng,Mức độ và so sánh,False
+silk,Ngoại hình và trang phục,Chất liệu vải,False
+silly,Con người,Tính cách,False
+silver,Kinh doanh và tài chính,Đầu tư,False
+simple,Khái niệm trừu tượng,Đánh giá và giá trị,False
+sin,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+sincere,Con người,Tính cách,False
+sing,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+single,Con người,Mối quan hệ,False
+sink,Nhà cửa,Phòng tắm,True
+sink,Môi trường và tự nhiên,Biển và đại dương,True
+sister,Con người,Gia đình,False
+sit,Con người,Cơ thể,False
+site,Nghề nghiệp và công việc,Nghề kỹ thuật và xây dựng,True
+site,"Khoa học, công nghệ và kỹ thuật",Internet,True
+situate,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+six,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+size,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+sketch,"Nghệ thuật, thiết kế và văn hóa",Vẽ và phác thảo,False
+ski,Thể thao,Trượt tuyết,False
+skill,Học tập và giáo dục,Kỹ năng học tập,False
+skin,Ngoại hình và trang phục,Chăm sóc da,False
+skirt,Ngoại hình và trang phục,Quần áo nữ,False
+skull,Con người,Bộ xương,False
+sky,Môi trường và tự nhiên,Thời tiết,False
+slap,Con người,Mối quan hệ,False
+slave,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+sleep,Đời sống hằng ngày,Thức dậy và đi ngủ,False
+slide,Cộng đồng và đô thị,Sân chơi,False
+slight,Khái niệm trừu tượng,Mức độ và so sánh,False
+slip,Sức khỏe,Chấn thương,False
+slogan,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+slope,Thể thao,Trượt tuyết,False
+slow,Khái niệm trừu tượng,Mức độ và so sánh,False
+small,Khái niệm trừu tượng,Mức độ và so sánh,False
+smart,Con người,Tính cách,False
+smash,Thể thao,Tennis,False
+smell,Con người,Khuôn mặt,False
+smile,Con người,Cảm xúc,False
+smoke,"Pháp luật, an toàn và khẩn cấp",Hỏa hoạn,False
+smooth,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+snake,Môi trường và tự nhiên,Bò sát,False
+snap,Giải trí và thời gian rảnh,Nhiếp ảnh,False
+snow,Môi trường và tự nhiên,Thời tiết,False
+so,Ngữ pháp và hư từ,Liên từ,False
+soak,Ngoại hình và trang phục,Giặt và bảo quản quần áo,False
+soap,Ngoại hình và trang phục,Chăm sóc da,False
+sock,Ngoại hình và trang phục,Đồ lót,False
+soft,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+soil,Môi trường và tự nhiên,Nông nghiệp,False
+soldier,Nghề nghiệp và công việc,Nghề công vụ và an ninh,False
+sole,Ngoại hình và trang phục,Giày dép,True
+sole,Thực phẩm,Cá,True
+solid,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+solo,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+solve,Học tập và giáo dục,Bài tập,False
+some,Ngữ pháp và hư từ,Lượng từ,False
+song,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+sono,"Khoa học, công nghệ và kỹ thuật",Vật lý,False
+soon,Khái niệm trừu tượng,Thời gian và thứ tự,False
+sorry,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+sort,Khái niệm trừu tượng,Đánh giá và giá trị,False
+soul,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+sound,"Khoa học, công nghệ và kỹ thuật",Vật lý,True
+sound,Sức khỏe,Cơ thể và sức khỏe,True
+south,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+space,Môi trường và tự nhiên,Không gian,False
+spain,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+spare,Giao thông,Sửa xe,False
+spark,"Khoa học, công nghệ và kỹ thuật",Điện,False
+speak,Học tập và giáo dục,Học ngoại ngữ,False
+special,Ăn uống bên ngoài,Gọi món,False
+species,Môi trường và tự nhiên,Bảo tồn thiên nhiên,False
+speech,Học tập và giáo dục,Kỹ năng học tập,False
+speed,Giao thông,An toàn giao thông,False
+spell,Học tập và giáo dục,Học ngoại ngữ,True
+spell,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,True
+spend,Kinh doanh và tài chính,Ngân sách cá nhân,False
+sphere,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+spice,Thực phẩm,Gia vị,False
+spider,Môi trường và tự nhiên,Động vật không xương sống,False
+spill,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+spin,Thể thao,Cricket,False
+spine,Con người,Bộ xương,False
+spirit,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+spite,Con người,Cảm xúc,False
+split,Kinh doanh và tài chính,Chi phí sinh hoạt,False
+spoil,Thực phẩm,Bảo quản thực phẩm,False
+sponsor,Thể thao,Thể thao chung,False
+spoon,Nhà cửa,Đồ nội thất,False
+sport,Thể thao,Thể thao chung,False
+spot,Ngoại hình và trang phục,Chăm sóc da,True
+spot,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+spouse,Con người,Gia đình,False
+spread,Thực phẩm,Sốt và gia vị phết,False
+spring,Môi trường và tự nhiên,Các mùa,True
+spring,"Khoa học, công nghệ và kỹ thuật",Cơ khí,True
+spring,Môi trường và tự nhiên,"Sông, hồ và thác nước",True
+spy,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+square,Cộng đồng và đô thị,Quảng trường,True
+square,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,True
+squeeze,Đời sống hằng ngày,Nấu ăn,False
+stab,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+stable,Khái niệm trừu tượng,Đánh giá và giá trị,True
+stable,Thể thao,Cưỡi ngựa,True
+staff,Nghề nghiệp và công việc,Nơi làm việc,True
+staff,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,True
+stage,Giải trí và thời gian rảnh,Sân khấu,False
+stair,Nhà cửa,Các phòng trong nhà,False
+stake,Kinh doanh và tài chính,Đầu tư,False
+stall,Cộng đồng và đô thị,Chợ,False
+stance,Khái niệm trừu tượng,Thái độ,False
+stand,Thể thao,Sân thi đấu,True
+stand,Nhà cửa,Đồ nội thất,True
+standard,Khái niệm trừu tượng,Đánh giá và giá trị,False
+star,Môi trường và tự nhiên,Thiên văn học,True
+star,Giải trí và thời gian rảnh,Phim và rạp chiếu,True
+stark,Khái niệm trừu tượng,Mức độ và so sánh,False
+start,Khái niệm trừu tượng,Thời gian và thứ tự,False
+starve,Đời sống hằng ngày,Ăn uống,False
+state,"Pháp luật, an toàn và khẩn cấp",Cơ quan hành chính,True
+state,Sức khỏe,Triệu chứng,True
+statistic,Học tập và giáo dục,Nghiên cứu,False
+statue,"Nghệ thuật, thiết kế và văn hóa",Điêu khắc,False
+stay,Du lịch và lưu trú,Khách sạn,True
+stay,Khái niệm trừu tượng,Thời gian và thứ tự,True
+steady,Khái niệm trừu tượng,Đánh giá và giá trị,False
+steal,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+steam,Đời sống hằng ngày,Nấu ăn,False
+steel,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+steep,Môi trường và tự nhiên,Núi và cảnh quan,False
+steer,Giao thông,Bộ điều khiển ô tô,True
+steer,Môi trường và tự nhiên,Động vật có vú,True
+step,Con người,Bàn tay và bàn chân,True
+step,Nhà cửa,Các phòng trong nhà,True
+stick,Nhà cửa,Đồ nội thất,True
+stick,Thể thao,Khúc côn cầu,True
+stiff,Sức khỏe,Cơ thể và sức khỏe,False
+still,Khái niệm trừu tượng,Thời gian và thứ tự,False
+stimul,Sức khỏe,Sức khỏe tinh thần,False
+stir,Đời sống hằng ngày,Nấu ăn,False
+stock,Kinh doanh và tài chính,Đầu tư,True
+stock,Thực phẩm,Sốt và gia vị phết,True
+stock,Mua sắm,Siêu thị,True
+stomach,Con người,Nội tạng,False
+stone,Môi trường và tự nhiên,Đá,False
+stop,Du lịch và lưu trú,Bến xe,True
+stop,Giao thông,Biển báo đường bộ,True
+store,Mua sắm,Cửa hàng tiện lợi,True
+store,"Khoa học, công nghệ và kỹ thuật",Máy tính,True
+storm,"Pháp luật, an toàn và khẩn cấp",Bão lũ,False
+story,Giải trí và thời gian rảnh,Đọc sách,True
+story,Nhà cửa,Ngôi nhà,True
+straight,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+strain,Sức khỏe,Chấn thương,False
+strange,Khái niệm trừu tượng,Đánh giá và giá trị,False
+stream,Môi trường và tự nhiên,"Sông, hồ và thác nước",False
+street,Cộng đồng và đô thị,Đường phố và giao lộ,False
+strength,Thể thao,Thể lực và tập luyện,False
+stress,Sức khỏe,Sức khỏe tinh thần,False
+stretch,Thể thao,Thể lực và tập luyện,False
+strict,Học tập và giáo dục,Giáo viên và học sinh,False
+strike,Nghề nghiệp và công việc,An toàn lao động,False
+string,Giải trí và thời gian rảnh,Nhạc cụ,False
+strip,Khái niệm trừu tượng,Hành động và xử lý,False
+strive,Con người,Tính cách,False
+stroke,Sức khỏe,Bệnh tật,True
+stroke,Thể thao,Bơi lội,True
+strong,Thể thao,Thể lực và tập luyện,False
+stuff,Ngôn ngữ hằng ngày,Bao bì và vật chứa,False
+stumble,Sức khỏe,Chấn thương,False
+stun,Con người,Cảm xúc,False
+stupid,Con người,Tính cách,False
+style,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+submit,Học tập và giáo dục,Bài tập,False
+subsequent,Khái niệm trừu tượng,Thời gian và thứ tự,False
+substance,"Khoa học, công nghệ và kỹ thuật",Hóa học,False
+subtle,Khái niệm trừu tượng,Đánh giá và giá trị,False
+success,Khái niệm trừu tượng,Đánh giá và giá trị,False
+successive,Khái niệm trừu tượng,Thời gian và thứ tự,False
+successor,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+such,Ngữ pháp và hư từ,Trợ từ,False
+suck,Con người,Khuôn mặt,False
+sudden,Khái niệm trừu tượng,Thời gian và thứ tự,False
+suffer,Sức khỏe,Bệnh tật,False
+sugar,Thực phẩm,Gia vị,False
+suggest,Con người,Mối quan hệ,False
+suit,Ngoại hình và trang phục,Quần áo công sở,True
+suit,"Pháp luật, an toàn và khẩn cấp",Tòa án,True
+sum,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+summer,Môi trường và tự nhiên,Các mùa,False
+sun,Môi trường và tự nhiên,Ánh nắng,False
+superb,Khái niệm trừu tượng,Đánh giá và giá trị,False
+superior,Khái niệm trừu tượng,Mức độ và so sánh,False
+supply,Kinh doanh và tài chính,Sản phẩm và dịch vụ,False
+support,Con người,Mối quan hệ,False
+supreme,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+sure,Khái niệm trừu tượng,Đánh giá và giá trị,False
+surface,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+surge,"Khoa học, công nghệ và kỹ thuật",Điện,False
+surprise,Con người,Cảm xúc,False
+suspect,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+swallow,Đời sống hằng ngày,Ăn uống,False
+swear,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+sweep,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+sweet,Thực phẩm,Bánh và món tráng miệng,False
+swim,Thể thao,Bơi lội,False
+swing,Cộng đồng và đô thị,Sân chơi,True
+swing,Thể thao,Golf,True
+switch,Nhà cửa,Hệ thống điện và nước,True
+switch,Khái niệm trừu tượng,Thay đổi và phát sinh,True
+sword,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+symbol,"Nghệ thuật, thiết kế và văn hóa",Biểu tượng và biển hiệu,False
+symptom,Sức khỏe,Triệu chứng,False
+system,"Khoa học, công nghệ và kỹ thuật",Phần mềm,False
+table,Nhà cửa,Đồ nội thất,True
+table,Học tập và giáo dục,Nghiên cứu,True
+tactic,Thể thao,Luật thi đấu,False
+tail,Môi trường và tự nhiên,Động vật có vú,False
+take,Ngôn ngữ hằng ngày,Động từ hành động cơ bản,False
+tale,Giải trí và thời gian rảnh,Đọc sách,False
+talk,Con người,Mối quan hệ,False
+tall,Con người,Ngoại hình,False
+tank,Giao thông,Trạm xăng,True
+tank,"Pháp luật, an toàn và khẩn cấp",Cảnh sát,True
+tap,Nhà cửa,Hệ thống điện và nước,True
+tap,Ăn uống bên ngoài,Đồ uống có cồn,True
+tape,Học tập và giáo dục,Đồ dùng học tập,False
+task,Nghề nghiệp và công việc,Nơi làm việc,False
+taste,Thực phẩm,Gia vị,False
+tax,Kinh doanh và tài chính,Thuế,False
+tea,Ăn uống bên ngoài,Trà,False
+teach,Học tập và giáo dục,Giáo viên và học sinh,False
+team,Thể thao,Thể thao chung,False
+tear,Con người,Cảm xúc,False
+teen,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+tell,Con người,Mối quan hệ,False
+tempt,Con người,Cảm xúc,False
+ten,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+tend,Khái niệm trừu tượng,Tính chất khác,False
+tender,Con người,Tính cách,True
+tender,Kinh doanh và tài chính,Mua bán và giao dịch,True
+tent,Giải trí và thời gian rảnh,Cắm trại,False
+territory,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+test,Học tập và giáo dục,Bài kiểm tra,False
+text,Dịch vụ,Điện thoại,False
+thank,Ngôn ngữ hằng ngày,"Cảm ơn, xin lỗi và phép lịch sự",False
+theater,Giải trí và thời gian rảnh,Phim và rạp chiếu,False
+them,Ngữ pháp và hư từ,Đại từ,False
+theme,Giải trí và thời gian rảnh,Công viên,False
+there,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+thick,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+thin,Sức khỏe,Cơ thể và sức khỏe,False
+thing,Khái niệm trừu tượng,Tính chất khác,False
+think,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+third,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+thorough,Khái niệm trừu tượng,Đánh giá và giá trị,False
+though,Ngữ pháp và hư từ,Liên từ,False
+thought,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+thousand,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+thread,Ngoại hình và trang phục,Sửa chữa quần áo,False
+threat,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+three,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+thrill,Thể thao,Thể thao mạo hiểm,False
+thrive,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+throat,Con người,Cơ thể,False
+through,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+throw,Thể thao,Điền kinh,False
+thumb,Con người,Bàn tay và bàn chân,False
+tide,Môi trường và tự nhiên,Biển và đại dương,False
+tidy,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+tie,Ngoại hình và trang phục,Quần áo công sở,True
+tie,Thể thao,Luật thi đấu,True
+tight,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+till,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",True
+till,Mua sắm,Quầy thanh toán,True
+timber,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+time,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+tin,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+tiny,Khái niệm trừu tượng,Mức độ và so sánh,False
+tip,Ăn uống bên ngoài,Thanh toán và tiền boa,True
+tip,Khái niệm trừu tượng,Phạm vi và bộ phận,True
+tire,Giao thông,Lốp xe và sự cố,True
+tire,Con người,Cảm xúc,True
+title,Học tập và giáo dục,Bằng cấp,True
+title,Giải trí và thời gian rảnh,Đọc sách,True
+title,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,True
+to,Ngữ pháp và hư từ,Giới từ,False
+tobacco,Sức khỏe,Bệnh tật,False
+toe,Con người,Bàn tay và bàn chân,False
+together,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+toilet,Nhà cửa,Nhà vệ sinh,False
+toll,Giao thông,Đường sá,False
+ton,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+tone,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+tool,"Khoa học, công nghệ và kỹ thuật",Dụng cụ khoa học,False
+tooth,Sức khỏe,Nha sĩ,False
+top,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,True
+top,Ngoại hình và trang phục,Quần áo nữ,True
+topic,Học tập và giáo dục,Các môn học,False
+torture,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+total,Kinh doanh và tài chính,Hóa đơn và biên lai,False
+touch,Con người,Cảm xúc,False
+tough,Con người,Tính cách,False
+tour,Du lịch và lưu trú,Tham quan,False
+toward,Ngôn ngữ hằng ngày,Giới từ và trạng từ chỉ nơi chốn,False
+tower,"Nghệ thuật, thiết kế và văn hóa",Kiến trúc,False
+town,Cộng đồng và đô thị,Trung tâm thành phố,False
+toy,Giải trí và thời gian rảnh,Trò chơi bàn,False
+trace,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+track,Thể thao,Điền kinh,True
+track,Giao thông,Tàu hỏa,True
+track,Giải trí và thời gian rảnh,Phong cách âm nhạc,True
+trade,Kinh doanh và tài chính,Mua bán và giao dịch,False
+tradition,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+traffic,Giao thông,Đường sá,False
+tragedy,Giải trí và thời gian rảnh,Sân khấu,False
+tragic,Con người,Cảm xúc,False
+trail,Giải trí và thời gian rảnh,Đi bộ đường dài,False
+train,Giao thông,Tàu hỏa,False
+trait,Con người,Tính cách,False
+transfer,Kinh doanh và tài chính,Chuyển khoản,False
+transit,Du lịch và lưu trú,Bến xe,False
+translate,Học tập và giáo dục,Học ngoại ngữ,False
+transmit,Sức khỏe,Bệnh tật,False
+trap,Môi trường và tự nhiên,Động vật có vú,False
+trauma,Sức khỏe,Sức khỏe tinh thần,False
+travel,Du lịch và lưu trú,Lập kế hoạch chuyến đi,False
+treasure,"Nghệ thuật, thiết kế và văn hóa",Di sản và bảo tàng,False
+treat,Sức khỏe,Bệnh tật,False
+tree,Môi trường và tự nhiên,Cây,False
+tremendous,Khái niệm trừu tượng,Mức độ và so sánh,False
+trend,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+tribe,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+tribute,"Nghệ thuật, thiết kế và văn hóa",Văn hóa và lễ hội,False
+trick,Giải trí và thời gian rảnh,Trò chơi bài,False
+trip,Du lịch và lưu trú,Lập kế hoạch chuyến đi,True
+trip,Sức khỏe,Chấn thương,True
+triumph,Thể thao,Thể thao chung,False
+troop,Nghề nghiệp và công việc,Nghề công vụ và an ninh,False
+trophy,Thể thao,Thể thao chung,False
+trouble,Con người,Cảm xúc,False
+truck,Giao thông,Xe tải và vận chuyển,False
+true,Khái niệm trừu tượng,Đánh giá và giá trị,False
+trust,Con người,Mối quan hệ,False
+truth,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+try,Khái niệm trừu tượng,Hành động và xử lý,False
+tube,"Khoa học, công nghệ và kỹ thuật",Cơ khí,False
+tune,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+tunnel,Giao thông,Đường sá,False
+turn,Giao thông,Biển báo đường bộ,True
+turn,Nghề nghiệp và công việc,Nghỉ phép và thời gian làm việc,True
+twelve,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+twenty,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+twist,Sức khỏe,Chấn thương,False
+two,Ngôn ngữ hằng ngày,Số đếm và số thứ tự,False
+typo,Học tập và giáo dục,Đồ dùng học tập,False
+ugly,Khái niệm trừu tượng,Đánh giá và giá trị,False
+uncle,Con người,Gia đình,False
+under,Ngữ pháp và hư từ,Giới từ,False
+understand,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+unique,Khái niệm trừu tượng,Đánh giá và giá trị,False
+up,Ngữ pháp và hư từ,Giới từ,False
+upon,Ngữ pháp và hư từ,Giới từ,False
+urge,Con người,Cảm xúc,False
+use,Khái niệm trừu tượng,Khả năng và cần thiết,False
+usual,Khái niệm trừu tượng,Đánh giá và giá trị,False
+vague,Khái niệm trừu tượng,Nhận thức và ý nghĩa,False
+valid,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+value,Khái niệm trừu tượng,Đánh giá và giá trị,False
+vary,Khái niệm trừu tượng,Thay đổi và phát sinh,False
+vast,Khái niệm trừu tượng,Mức độ và so sánh,False
+vehicle,Giao thông,Các loại ô tô,False
+venture,Kinh doanh và tài chính,Doanh nghiệp,False
+verse,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+vertical,"Nghệ thuật, thiết kế và văn hóa",Hình dạng,False
+very,Khái niệm trừu tượng,Mức độ và so sánh,False
+viable,Khái niệm trừu tượng,Khả năng và cần thiết,False
+vice,Nghề nghiệp và công việc,Thông tin nghề nghiệp,False
+vicious,Con người,Tính cách,False
+victim,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+video,Giải trí và thời gian rảnh,Phát trực tuyến,False
+view,Ngôn ngữ hằng ngày,Từ trái nghĩa,False
+village,Cộng đồng và đô thị,Khu dân cư,False
+virtual,"Khoa học, công nghệ và kỹ thuật",Internet,False
+virtue,Con người,Tính cách,False
+visit,Du lịch và lưu trú,Tham quan,False
+vital,Khái niệm trừu tượng,Đánh giá và giá trị,False
+voice,"Nghệ thuật, thiết kế và văn hóa",Âm nhạc,False
+volume,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+volume,Giải trí và thời gian rảnh,Đọc sách,True
+vote,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+vow,Con người,Sự kiện đời người,False
+vulnerable,Con người,Cảm xúc,False
+wage,Nghề nghiệp và công việc,Lương và phúc lợi,False
+wait,Ngôn ngữ hằng ngày,Nhu cầu và yêu cầu thường gặp,False
+wake,Đời sống hằng ngày,Thức dậy và đi ngủ,False
+walk,Giao thông,Đi bộ,False
+wall,Nhà cửa,Ngôi nhà,False
+wander,Giải trí và thời gian rảnh,Hoạt động ngoài trời,False
+want,Ngôn ngữ hằng ngày,Nhu cầu và yêu cầu thường gặp,False
+war,"Pháp luật, an toàn và khẩn cấp",Quyền công dân,False
+ward,Sức khỏe,Khoa phòng,True
+ward,Cộng đồng và đô thị,Khu dân cư,True
+warm,Môi trường và tự nhiên,Khí hậu,False
+warn,"Pháp luật, an toàn và khẩn cấp",An toàn cá nhân,False
+warrant,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+wash,Đời sống hằng ngày,Giặt và phơi quần áo,False
+waste,Nhà cửa,Xử lý rác,False
+watch,Ngoại hình và trang phục,Phụ kiện,True
+watch,Giải trí và thời gian rảnh,Truyền hình,True
+water,Ăn uống bên ngoài,Đồ uống,False
+wave,Môi trường và tự nhiên,Biển và đại dương,False
+way,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+weak,Sức khỏe,Cơ thể và sức khỏe,False
+wealth,Kinh doanh và tài chính,Đầu tư,False
+weapon,"Pháp luật, an toàn và khẩn cấp",Tội phạm và điều tra,False
+wear,Ngoại hình và trang phục,Kích cỡ và kiểu dáng,False
+weather,Môi trường và tự nhiên,Thời tiết,False
+weave,"Nghệ thuật, thiết kế và văn hóa",Dệt may,False
+wed,Con người,Sự kiện đời người,False
+weed,Môi trường và tự nhiên,Nông nghiệp,False
+week,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+weigh,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+weird,Khái niệm trừu tượng,Đánh giá và giá trị,False
+welcome,Ngôn ngữ hằng ngày,Chào hỏi và giới thiệu bản thân,False
+well,Sức khỏe,Cơ thể và sức khỏe,True
+well,Môi trường và tự nhiên,"Sông, hồ và thác nước",True
+west,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+wet,Môi trường và tự nhiên,Thời tiết,False
+what,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+wheat,Thực phẩm,Ngũ cốc,False
+wheel,Giao thông,Bộ điều khiển ô tô,False
+when,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+where,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+which,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+while,Ngữ pháp và hư từ,Liên từ,False
+whip,Đời sống hằng ngày,Nấu ăn,False
+whisper,Con người,Mối quan hệ,False
+white,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+who,Ngôn ngữ hằng ngày,Câu hỏi thông dụng,False
+whole,Ngôn ngữ hằng ngày,Từ chỉ số lượng,False
+whom,Ngữ pháp và hư từ,Đại từ,False
+wide,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+widow,Con người,Gia đình,False
+width,"Khoa học, công nghệ và kỹ thuật",Đo lường,False
+wife,Con người,Gia đình,False
+wild,Môi trường và tự nhiên,Bảo tồn thiên nhiên,False
+will,"Pháp luật, an toàn và khẩn cấp",Giấy tờ pháp lý,False
+win,Thể thao,Luật thi đấu,False
+wind,Môi trường và tự nhiên,Thời tiết,True
+wind,"Khoa học, công nghệ và kỹ thuật",Năng lượng,True
+window,Nhà cửa,Cửa sổ và rèm,False
+wine,Ăn uống bên ngoài,Đồ uống có cồn,False
+wing,Môi trường và tự nhiên,Chim,False
+winter,Môi trường và tự nhiên,Các mùa,False
+wipe,Đời sống hằng ngày,Dọn dẹp nhà cửa,False
+wire,Nhà cửa,Hệ thống điện và nước,False
+wise,Con người,Tính cách,False
+wish,Con người,Cảm xúc,False
+wit,Con người,Tính cách,False
+with,Ngữ pháp và hư từ,Giới từ,False
+witness,"Pháp luật, an toàn và khẩn cấp",Tòa án,False
+woman,Con người,Nữ giới,False
+wonder,Con người,Cảm xúc,False
+wood,"Khoa học, công nghệ và kỹ thuật",Vật liệu,False
+wool,Ngoại hình và trang phục,Chất liệu vải,False
+word,Học tập và giáo dục,Học ngoại ngữ,False
+work,Nghề nghiệp và công việc,Nơi làm việc,False
+world,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
+worm,Môi trường và tự nhiên,Động vật không xương sống,False
+worry,Con người,Cảm xúc,False
+worse,Khái niệm trừu tượng,Mức độ và so sánh,False
+worship,"Nghệ thuật, thiết kế và văn hóa",Tôn giáo và nơi thờ tự,False
+worth,Khái niệm trừu tượng,Đánh giá và giá trị,False
+would,Ngữ pháp và hư từ,Trợ từ,False
+wound,Sức khỏe,Chấn thương,False
+wrap,Ngôn ngữ hằng ngày,Bao bì và vật chứa,False
+wrist,Con người,Khớp,False
+write,Học tập và giáo dục,Kỹ năng học tập,False
+wrong,Khái niệm trừu tượng,Đánh giá và giá trị,False
+yard,Nhà cửa,Vườn sân trong,True
+yard,"Khoa học, công nghệ và kỹ thuật",Đo lường,True
+year,Ngôn ngữ hằng ngày,"Ngày, giờ và lịch cơ bản",False
+yell,Con người,Cảm xúc,False
+yellow,"Nghệ thuật, thiết kế và văn hóa",Màu sắc,False
+yield,Môi trường và tự nhiên,Nông nghiệp,False
+young,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+your,Ngữ pháp và hư từ,Đại từ,False
+youth,Con người,Tuổi tác và các giai đoạn cuộc đời,False
+zone,Ngôn ngữ hằng ngày,Bản đồ và khu vực thế giới,False
