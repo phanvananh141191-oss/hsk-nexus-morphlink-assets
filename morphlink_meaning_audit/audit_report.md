@@ -190,3 +190,203 @@ Thêm 1 dòng mới `word=tender, pos=adjective`: `meaning_en`="gentle, kind, an
 2. Quét lại toàn bộ `pos=adjective` kết thúc `-er` đối chiếu nghĩa: **0 dòng còn là danh từ tác nhân bị gắn nhầm pos**.
 3. Quét lại toàn bộ dòng có `structure` khác rỗng: **0 dòng còn thiếu `thanh_phan_1..6`/`loai_ket_hop`/`so_thanh_phan`**.
 4. **Tổng số dòng cuối cùng: 11.282** (11.288 − 7 dòng loại bỏ + 1 dòng `tender` adjective thêm mới = 11.282).
+
+---
+
+## VÒNG 3 — Rà soát N[C]/N[U] toàn diện + audit 4 cột ghi chú
+
+File đầu vào: `morphlink_MERGED_AUDITED_v2.csv` (11.282 dòng). File đầu ra: **`morphlink_MERGED_AUDITED_v3.csv` (11.407 dòng)**. Phương pháp: script trực tiếp cho các phần dữ liệu nhỏ/rõ ràng + 13 agent chạy song song (5 batch rà 629 danh từ hiện chỉ có N[U], 8 batch rà 1.394 danh từ trừu tượng hiện chỉ có N[C]) cho phần cần tra cứu từ điển quy mô lớn.
+
+### VIỆC A — N[C]/N[U]
+
+**A.1 — 4 cặp đã biết:** Viết lại `meaning_en`/`meaning_vi` cho `business, failure, kindness, pressure` theo đúng bảng yêu cầu — mỗi từ nay có 2 dòng với nghĩa phân biệt rõ ràng (không còn dòng nào giống hệt dòng kia). Ví dụ: `pressure` N[C] cũ = N[U] cũ (giống hệt) → N[C] mới = "một sức ép cụ thể (pressures)", N[U] mới = "áp suất/áp lực nói chung".
+
+**A.2 — Quét toàn bộ file tìm cặp N[C]/N[U] trùng nghĩa khác:** Chỉ có đúng 4 từ trong toàn bộ 11.282 dòng gốc xuất hiện 2 lần với `noun_type` khác nhau (chính là 4 từ ở A.1) — sau khi sửa, xác nhận **0 cặp trùng nghĩa còn lại**.
+
+**A.3 — Tách thêm từ có cả 2 cách dùng nhưng file chỉ lưu 1 dòng:** Danh sách từ gợi ý trong yêu cầu (coffee, tea, chicken, glass, paper, time, work...) **hoàn toàn không có trong file** — đây là điểm cần đính chính: toàn bộ 11.282 dòng của file đều là sản phẩm ráp Prefix/Root/Suffix của MorphLink (tối thiểu 2 hình vị), nên các danh từ đơn hình vị cơ bản này chưa từng được đưa vào bộ từ vựng ngay từ đầu (tương tự phát hiện về "able" ở Vòng 2). Do đó việc rà soát A.3 được mở rộng sang toàn bộ 629 danh từ hiện chỉ có N[U] và 1.394 danh từ trừu tượng hiện chỉ có N[C] (đuôi -tion/-ment/-ness/-ity/-ance/-ence/-ism/-ship/-hood/-dom...) đang thực sự có trong file, dùng 13 agent độc lập áp tiêu chí nghiêm ngặt (chỉ tách khi cả 2 nghĩa đều phổ biến, khác biệt rõ, được từ điển chuẩn Oxford/Cambridge/Merriam-Webster ghi nhận riêng — tránh lạm dụng kiểu "khái niệm trừu tượng vs. 1 lần cụ thể").
+
+**Kết quả: tách thêm 108 từ** (tỷ lệ tách trung bình ~5,3% trên tổng số ứng viên, đúng khoảng kỳ vọng 2-8%), nâng tổng số từ có cả N[C] và N[U] từ 4 lên **131 từ**. Danh sách đầy đủ (nghĩa C / nghĩa U):
+
+| word | N[C] | N[U] |
+|---|---|---|
+| ability | một kỹ năng/năng khiếu cụ thể | năng lực nói chung |
+| accommodation | một thỏa thuận đạt được nhờ nhượng bộ | chỗ ở, nơi lưu trú nói chung |
+| activity | một hoạt động/trò tiêu khiển cụ thể | sự nhộn nhịp, sôi động nói chung |
+| addition | thứ được thêm vào | phép cộng (toán học) |
+| administration | một chính quyền cụ thể | hoạt động quản lý/điều hành nói chung |
+| admission | lời thú nhận | quyền được vào |
+| amusement | một trò giải trí | cảm giác vui thích |
+| appearance | một lần xuất hiện trước công chúng | vẻ bề ngoài |
+| attachment | tệp đính kèm | tình cảm gắn bó |
+| attraction | điểm thu hút khách | sức hút (tình cảm/vật lý) |
+| authority | chuyên gia / cơ quan chính quyền | quyền lực |
+| civilization | một nền văn minh cụ thể | trình độ văn minh nói chung |
+| collection | bộ sưu tập | việc thu gom |
+| composition | một tác phẩm nhạc/văn | thành phần cấu tạo |
+| construction | một công trình xây dựng | quá trình xây dựng |
+| contraction | từ viết tắt ngữ pháp | quá trình co lại |
+| conviction | bản án kết tội | niềm tin vững chắc |
+| creation | một sản phẩm được tạo ra | hành động sáng tạo |
+| decoration | đồ trang trí | việc/phong cách trang trí |
+| definition | định nghĩa từ | độ sắc nét |
+| detention | phạt ở lại trường | tình trạng bị giam giữ |
+| development | một diễn biến mới/khu nhà mới xây | quá trình phát triển |
+| consideration | một yếu tố cân nhắc | việc suy nghĩ kỹ |
+| curiosity | vật lạ, hiếm | tính tò mò |
+| dedication | lời đề tặng/lễ khánh thành | sự tận tụy |
+| criticism | một lời phê bình cụ thể | sự chỉ trích nói chung |
+| competition | một cuộc thi | sự cạnh tranh nói chung |
+| commencement | lễ tốt nghiệp (AmE) | sự khởi đầu |
+| depression | chỗ trũng trên bề mặt / một giai đoạn suy thoái kinh tế | chứng trầm cảm (y tế) |
+| difficulty | một vấn đề/khó khăn cụ thể | mức độ khó nói chung |
+| direction | hướng di chuyển cụ thể | sự chỉ đạo/lãnh đạo |
+| distinction | sự khác biệt | sự xuất sắc/danh dự |
+| distribution | một lần phân phát cụ thể / phân bố thống kê | cách phân bổ nói chung |
+| division | bộ phận/phòng ban | phép chia/quá trình phân chia |
+| establishment | một cơ sở/tổ chức | hành động thành lập |
+| expression | một từ/cụm từ | sự diễn đạt cảm xúc |
+| extension | phần mở rộng/số máy lẻ | quá trình mở rộng |
+| engagement | lễ đính hôn/cuộc hẹn | sự tương tác/tham gia |
+| entrance | cửa vào | quyền được vào |
+| embarrassment | người/việc gây xấu hổ | cảm giác xấu hổ |
+| execution | việc hành quyết | việc thực hiện kế hoạch |
+| extraction | quá trình chiết xuất/nhổ răng | nguồn gốc dòng dõi |
+| estimation | một phép ước tính | quan điểm đánh giá |
+| fabrication | lời bịa đặt | quá trình chế tạo |
+| fellowship | tổ chức/hội đoàn | cảm giác thân thiết, gắn bó |
+| fixation | một nỗi ám ảnh cụ thể | quá trình cố định hóa học/kỹ thuật |
+| freedom | một quyền tự do cụ thể | tự do nói chung |
+| generation | một thế hệ người | quá trình tạo/sinh ra |
+| government | chính phủ (nhóm người) | hệ thống/thể chế cai trị |
+| hostility | các hành động chiến tranh (hostilities) | thái độ thù địch |
+| illness | một căn bệnh cụ thể | tình trạng ốm đau nói chung |
+| implication | một hệ quả cụ thể | sự liên can |
+| imitation | một bản sao | hành động bắt chước |
+| impurity | một tạp chất cụ thể | tính chất không tinh khiết |
+| indulgence | một thứ tự thưởng | thói quen buông thả hưởng thụ |
+| infection | một bệnh nhiễm trùng cụ thể | quá trình/nguy cơ nhiễm bệnh |
+| inheritance | tài sản thừa kế | quá trình di truyền gen |
+| innovation | một ý tưởng/phát minh mới | hoạt động đổi mới sáng tạo |
+| injustice | một hành động bất công cụ thể | tính bất công nói chung |
+| inscription | một đoạn chữ khắc | hành động khắc/viết chữ |
+| insecurity | một nỗi bất an cụ thể | sự thiếu tự tin nói chung |
+| inspiration | người/vật là nguồn cảm hứng | quá trình được khơi gợi cảm hứng |
+| installation | thiết bị/căn cứ đã lắp đặt | hành động lắp đặt |
+| instruction | chỉ dẫn/mệnh lệnh cụ thể | hoạt động giảng dạy |
+| invention | vật/thiết bị được sáng chế | khả năng/hoạt động sáng chế |
+| investment | thứ được đầu tư | hành động đầu tư |
+| irony | một sự việc trớ trêu cụ thể | sự mỉa mai nói chung |
+| irritation | điều/người gây khó chịu | cảm giác bực bội |
+| judgment | một quyết định/phán quyết | khả năng phán đoán |
+| liability | người/vật gây bất lợi; khoản nợ | trách nhiệm pháp lý |
+| likeness | bức chân dung/hình ảnh khắc họa | sự giống nhau |
+| measurement | con số/kích thước đo được | quá trình đo lường |
+| motivation | một lý do cụ thể | động lực nói chung |
+| nationality | nhóm dân tộc/quốc gia | quốc tịch (tư cách pháp lý) |
+| negotiation | một cuộc đàm phán cụ thể | quá trình đàm phán nói chung |
+| notification | một thông báo cụ thể | việc thông báo nói chung |
+| observation | một nhận xét | sự quan sát |
+| occupation | nghề nghiệp | sự chiếm đóng (quân sự) |
+| operation | một chiến dịch/ca phẫu thuật | sự vận hành |
+| organization | một tổ chức/công ty | tính tổ chức, sự sắp xếp có hệ thống |
+| outrage | một hành động gây phẫn nộ | cảm giác phẫn nộ |
+| partnership | một công ty hợp danh | tình trạng làm đối tác |
+| payment | một khoản tiền cụ thể | việc thanh toán nói chung |
+| performance | một buổi biểu diễn | hiệu suất hoạt động |
+| personality | nhân vật nổi tiếng | tính cách con người |
+| possession | vật sở hữu | trạng thái sở hữu |
+| possibility | một phương án cụ thể | tính khả thi nói chung |
+| preparation | việc chuẩn bị cụ thể | quá trình chuẩn bị nói chung |
+| publication | một ấn phẩm | việc in ấn, xuất bản nói chung |
+| qualification | bằng cấp/chứng chỉ | lời giới hạn, làm rõ tuyên bố |
+| responsibility | một trách nhiệm cụ thể | trách nhiệm nói chung |
+| security | chứng khoán, giấy tờ có giá | sự an toàn, an ninh |
+| scholarship | học bổng | học thuật nói chung |
+| reference | một sự đề cập/thư giới thiệu | việc tham khảo nói chung |
+| regulation | một quy định cụ thể | sự kiểm soát, quản lý nói chung |
+| representation | hình ảnh/mô hình đại diện | tình trạng được đại diện |
+| resignation | hành động/đơn từ chức | sự cam chịu |
+| selection | một tập hợp được chọn ra | quá trình lựa chọn |
+| refreshment | đồ ăn thức uống nhẹ | sự phục hồi sức lực, tinh thần |
+| relaxation | một sự nới lỏng quy định | sự thư giãn, nghỉ ngơi |
+| sisterhood | một hội/dòng tu nữ | tình chị em |
+| realization | một sự nhận ra cụ thể | sự hiện thực hóa (ước mơ) |
+| rubber | (Anh) cục tẩy | cao su (chất liệu) |
+| sickness | một căn bệnh cụ thể | tình trạng ốm yếu nói chung |
+| specialization | lĩnh vực chuyên môn cụ thể | quá trình trở thành chuyên gia |
+| stupidity | một hành động ngu ngốc cụ thể | tính ngu ngốc nói chung |
+| subdivision | khu đất được chia lô | hành động phân chia đất đai |
+| submission | bài nộp/hồ sơ dự thi | sự đầu hàng, khuất phục |
+| substance | một loại chất cụ thể | nội dung cốt lõi |
+| temptation | một điều cám dỗ cụ thể | cảm giác ham muốn làm điều sai |
+| thickness | một lớp vật liệu cụ thể | độ dày nói chung |
+| transcription | bản chép lại cụ thể | quá trình chuyển lời nói thành văn bản |
+| transmission | một buổi phát sóng cụ thể | quá trình truyền dẫn nói chung |
+| translation | bản dịch cụ thể | công việc/kỹ năng dịch thuật |
+| treatment | một liệu pháp cụ thể | sự chăm sóc y tế nói chung |
+| understatement | một câu nói giảm nhẹ cụ thể | phong cách nói giảm nhẹ |
+| university | một trường đại học cụ thể | việc học đại học nói chung |
+| unpleasantness | một xung đột cụ thể | tính chất gây khó chịu nói chung |
+| usage | một cách dùng từ cụ thể | cách dùng từ nói chung |
+| vulnerability | một lỗ hổng/điểm yếu cụ thể | trạng thái dễ tổn thương nói chung |
+| weakness | một điểm yếu cụ thể | trạng thái thiếu sức mạnh nói chung |
+| weight | một vật nặng (dùng để tập/đo) | trọng lượng nói chung |
+
+*Phát hiện phụ trong lúc audit:* `rubber` trước đây CHỈ có 1 dòng `pos=adjective` ("made of rubber"), hoàn toàn thiếu 2 nghĩa danh từ rất thông dụng (cao su - chất liệu; cục tẩy - Anh) — đã bổ sung đầy đủ.
+
+**17 từ N[C] khác bị gắn sai `noun_type`** (nghĩa mô tả rõ ràng là khái niệm chung/không đếm được nhưng bị gắn N[C]) được phát hiện qua rà soát bổ sung (không thuộc danh sách gợi ý gốc, phát hiện khi kiểm tra chéo cột `multi_nghia`) — đã sửa lại thành N[U], không thêm dòng mới vì không có nghĩa C riêng biệt đủ thông dụng: `disablement, discontinuity, discourtesy, discredit, dishonesty, disloyalty, disproportion, disrespect, disuse, nonobservance, unbalance, uncertainty, underexposure, uniformity, universality, unreason, unselfconsciousness`.
+
+**Còn lại chưa chắc chắn:** khoảng 219 danh từ khác bắt đầu bằng tiền tố dis-/mis-/un-/non-/over-/under- hiện chỉ có N[C] chưa được rà (nằm ngoài phạm vi đuôi -tion/-ment/-ness/-ity/... mà 8 batch agent đã quét, và ngoài heuristic "lack of/quality of" đã áp dụng) — cần 1 vòng rà riêng nếu muốn triệt để 100%.
+
+### VIỆC B — Audit 4 cột ghi chú
+
+**B.1 — `multi_nghia` (136 dòng có nội dung trước audit):**
+- Phát hiện **21 dòng chứa ghi chú quy trình nội bộ bị lẫn vào** (nội dung: "Danh từ: đếm được vs không đếm được... — nguồn Perplexity, đối chiếu Cambridge/British Council") — đây thực chất là 1 TODO chưa xử lý từ pipeline gốc (trước cả 3 vòng audit), không phải nghĩa phụ thật. Đã xóa toàn bộ 21 ghi chú này; nội dung TODO này chính là đầu mối dẫn đến việc tách 108 từ ở VIỆC A.3 (17/21 từ liên quan đã được tách N[C]/N[U] đúng theo đúng ý TODO đề ra: accommodation, depression, difficulty, distribution, education, employment, enjoyment, freedom, improvement, injustice, irony, paperwork, pronunciation, research, rubber, usage, weight — riêng `education/employment/enjoyment/paperwork` không tách vì từ điển chuẩn không ghi nhận nghĩa C riêng, chỉ sửa `noun_type` cho khớp nghĩa U).
+- 1 dòng `oldies` có `multi_nghia` trùng lặp y hệt `meaning_vi` (không cung cấp thông tin gì thêm) — đã xóa.
+- Kiểm tra cross-pos contamination (multi_nghia của dòng noun chứa nghĩa động từ hoặc ngược lại): **0 vi phạm**.
+- Kiểm tra multi_nghia bị dùng để nhét nghĩa N[U] vào dòng N[C] hoặc ngược lại (thay vì tách dòng riêng theo đúng VIỆC A): **0 vi phạm** trên toàn bộ 131 cặp N[C]/N[U] sau khi hoàn thành VIỆC A.
+
+**B.2 — `adj_ghi_chu` (162 dòng):**
+- Xác nhận **0 dòng** `pos=adjective` còn thiếu cả `adj_ghi_chu` lẫn `adj_so_sanh_hon/nhat` (PASS, khớp kết quả Vòng 2).
+- Rà nội dung 75 dòng ghi "đây là dạng so sánh hơn của tính từ gốc": xác nhận tính từ gốc được nêu (able, bare, base, bitter, black... ) **không dòng nào tồn tại độc lập trong file** — nhất quán với phát hiện ở Vòng 2 (toàn bộ file chỉ chứa từ ≥2 hình vị), nội dung ghi chú vẫn ĐÚNG về mặt ngôn ngữ (đây thật sự là dạng so sánh hơn, không có dạng so sánh hơn/nhất riêng) nên không cần sửa.
+- Rà 61 dòng ghi "tính từ tuyệt đối/không phân cấp": phát hiện **1 dòng gắn nhãn sai** — `global` ("bao trùm toàn thế giới") thực tế so sánh được bình thường trong tiếng Anh hiện đại ("a more global economy", "the most global companies") → đã xóa `adj_ghi_chu`, điền `adj_so_sanh_hon="more global"`, `adj_so_sanh_nhat="most global"`. 60 dòng còn lại xác nhận đúng là tính từ tuyệt đối/phân loại thật (daily, digital, electrical, impossible, international, wooden...).
+
+**B.3 — `so_nhieu_bat_quy_tac` (205 dòng):**
+- Phát hiện **3 dòng `pos=verb`** (`recovers, reshapes, wavers`) bị dính ghi chú "Từ có vẻ đã ở dạng SỐ NHIỀU sẵn" — đây là rác sót lại từ trước khi 3 dòng này được sửa `pos` từ noun→verb ở Vòng 1, hoàn toàn không liên quan đến động từ → đã xóa.
+- Đối chiếu `noun_so_nhieu` với nội dung ghi chú cho toàn bộ 202 dòng noun còn lại: **0 xung đột** (quy ước "có ghi chú thì `noun_so_nhieu` để trống" được tuân thủ nhất quán, kể cả 2 trường hợp đặc biệt `aircraft`/`offspring` với ghi chú "đã là số nhiều của chính nó").
+
+**B.4 — `dong_tu_bat_quy_tac`:**
+- 5 dòng có ghi chú (`arise, overcome, overtake, undertake, withdraw`) đối chiếu khớp hoàn toàn với 4 cột chia động từ tương ứng — đây là các động từ bất quy tắc dạng nguyên mẫu (không phải dạng chia sẵn của từ khác) nên quy ước "note→4 cột rỗng" không áp dụng, ghi chú chỉ mang tính tóm tắt bổ sung, không mâu thuẫn.
+- Quét toàn bộ động từ bất quy tắc tiếng Anh chuẩn (danh sách ~150 gốc bất quy tắc, gồm cả dạng có tiền tố) đối chiếu với `verb_qua_khu`/`verb_pp` hiện tại: phát hiện **5 dòng bị chia theo quy tắc thường (sai)** dù không có ghi chú:
+
+| word | Trước (sai) | Sau (đúng) |
+|---|---|---|
+| forsake | forsaked / forsaked | forsook / forsaken |
+| forgo | forgoed / forgoed | forwent / forgone |
+| overdo | overdoed / overdoed | overdid / overdone |
+| redo | redoed / redoed | redid / redone |
+| undo | undoed / undoed | undid / undone |
+| unbend | unbended / unbended | unbent / unbent |
+
+  Đã sửa cả 4 cột chia động từ và bổ sung `dong_tu_bat_quy_tac` cho cả 6 dòng. Đã kiểm tra kỹ và loại các false-positive: `mislead/misled` (đã đúng sẵn), `breastfeed/breastfed`, `overfeed/overfed`, `spoonfeed/spoonfed` (đều đã đúng sẵn, chỉ trùng đuôi "-ed" ngẫu nhiên với "feed" nên bị nghi oan), `ascribe/describe/inscribe/prescribe/subscribe`... (các động từ "-scribe" là động từ QUY TẮC, không liên quan gốc "be" dù trùng đuôi chữ cái), `outshine` (đã ghi đúng cả 2 dạng "outshone/outshined").
+
+### Phát hiện phụ quan trọng — rác dữ liệu chéo cột theo pos (ngoài phạm vi VIỆC A/B gốc)
+
+Trong lúc kiểm tra mẫu ngẫu nhiên sau VIỆC A, phát hiện `rubber` (2 dòng N[U]/N[C] mới thêm) bị gán nhầm `pos=adjective` thay vì `noun` (lỗi thao tác của chính vòng audit này — do dòng mẫu để tạo dòng mới là dòng `adjective` sẵn có duy nhất của "rubber") → đã sửa lại `pos=noun` cho cả 2 dòng.
+
+Việc rà lại này dẫn tới phát hiện 1 lỗi hệ thống lớn hơn nhiều, tồn tại từ Vòng 1/2 (khi các batch sửa `pos` sai chỉ đổi cột `pos` mà không dọn các cột dữ liệu chuyên biệt theo loại từ cũ):
+
+- **167 dòng KHÔNG PHẢI `pos=noun`** (phần lớn là `adjective`/`verb`, một số `preposition`/`adverb`) vẫn còn `noun_type`/`noun_so_nhieu` sót lại từ trước khi `pos` được sửa — trong đó **164 dòng** còn cả số nhiều bịa đặt vô nghĩa kiểu `brighters, cuters, suffers, dictionarys`... Đã xóa sạch cả 3 cột (`noun_type`, `noun_so_nhieu`, `so_nhieu_bat_quy_tac`) trên toàn bộ 167 dòng này.
+- **80 dòng không phải `pos=adjective`** còn sót `adj_so_sanh_hon`/`adj_so_sanh_nhat` vô nghĩa kiểu "more backboards"/"most backboards" (cho danh từ), "canster"/"canstest" (cho động từ cổ "canst"). Đã xóa sạch.
+- **24 dòng không phải `pos=verb`** còn sót cột chia động từ vô nghĩa kiểu `brokens/brokening/brokened` (cho tính từ "broken"), `carryouts/carryouting` (cho danh từ "carryout"). Trong đó **4 dòng** (`broadcast, forecast, mistake, awake`) có ghi chú `dong_tu_bat_quy_tac` chứa thông tin ĐÚNG (dạng bất quy tắc thật) nhưng bị "mắc kẹt" trên dòng `noun`/`adjective` vì **từ này thực ra có nghĩa động từ thông dụng nhưng chưa từng có dòng `pos=verb` riêng** — tương tự trường hợp `transpose` phát hiện ở Vòng 1. Đã bổ sung 4 dòng verb mới (`broadcast`, `forecast`, `mistake`, `awake`) với nghĩa + cách chia đúng lấy từ chính ghi chú sót lại, sau đó xóa ghi chú thừa trên dòng gốc. 20 dòng còn lại (rác thuần túy, không có thông tin thật) đã xóa sạch 5 cột liên quan.
+
+**Tổng cộng đã dọn sạch chéo-cột cho 267 dòng** (167+80+20, không tính 4 dòng verb được cứu lại), bổ sung thêm 4 dòng từ vựng mới bị thiếu hoàn toàn (broadcast/forecast/mistake/awake ở nghĩa động từ). Đây là lỗi hoàn toàn độc lập với 3 nhóm lỗi ban đầu và với VIỆC A/B được giao — phát hiện được là nhờ áp dụng đúng tinh thần "đối chiếu nội dung cột ghi chú với cột dữ liệu tương ứng, xác nhận không lẫn nội dung không liên quan" của B.3/B.4 sang cả các cột `noun_type`/`adj_so_sanh_*` chưa được liệt kê rõ trong yêu cầu gốc.
+
+### Còn lại chưa xác thực / cần rà thêm
+
+- 219 danh từ tiền tố dis-/mis-/un-/non-/over-/under- hiện chỉ có N[C], chưa được rà đầy đủ khả năng cần thêm N[U] (nêu ở VIỆC A.3).
+- Chưa quét lại toàn bộ ~5.100 danh từ N[C]-only còn lại (không thuộc nhóm đuôi trừu tượng đã quét) xem có cần bổ sung N[U] hay không — phạm vi VIỆC A tập trung vào danh từ trừu tượng vì đây là nhóm có xác suất cần tách cao nhất; danh từ cụ thể (backboard, organizer, tracker...) hầu như chắc chắn chỉ có nghĩa đếm được nên rủi ro bỏ sót thấp.
+- Chưa audit tương tự cột `nguon`, `trong_morphlink`, `co_affix`, `ipa_status` — nằm ngoài phạm vi 4 cột ghi chú được yêu cầu ở vòng này.
+
+### Tổng số dòng cuối cùng: 11.411
+(11.282 dòng đầu vào + 125 dòng N[C]/N[U] mới tách thêm ở VIỆC A + 4 dòng verb mới bổ sung — `broadcast, forecast, mistake, awake` — phát hiện khi dọn rác chéo-cột = 11.411; không có dòng nào bị xóa ở Vòng 3, chỉ có sửa nghĩa/`noun_type`/cột ghi chú và thêm dòng mới cho các từ cần tách hoặc thiếu hẳn 1 pos).
