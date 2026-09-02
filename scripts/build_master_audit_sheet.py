@@ -35,6 +35,36 @@ with open(DICT_PATH, encoding="utf-8", errors="ignore") as f:
 def is_word(component):
     return component in dict_words
 
+# Từ nào chỉ xuất hiện dạng VIẾT HOA trong từ điển hệ thống -> tên riêng
+# (người/địa danh/thương hiệu), vd Kenya, Washington, Fleming... Danh sách
+# 5638 "từ thiếu" được trích từ Reading/Writing đã lowercase hết nên không
+# còn phân biệt hoa/thường được nữa -> phải dựa vào từ điển gốc để lọc lại.
+dict_words_lower_only = set()
+dict_words_any_case_lower = set()
+with open(DICT_PATH, encoding="utf-8", errors="ignore") as f:
+    for line in f:
+        w = line.strip()
+        if w and "'" not in w:
+            dict_words_any_case_lower.add(w.lower())
+proper_noun_only = dict_words_any_case_lower - dict_words
+
+PROPER_NOUN_KEYWORDS = re.compile(r"given name|surname|proper noun|not a common english word", re.I)
+_NOUN = r"(country|city|capital(?:\s+city)?|continent|island|nation|province|river|mountain\s+range)"
+PROPER_NOUN_STARTS = re.compile(r"^(a|an|the)\s+(?:[a-z]+[,\s]+){0,3}" + _NOUN + r"\s+(in|of|near|on|along|bordering)\b", re.I)
+PROPER_NOUN_STATE = re.compile(r"^(a|an|the)\s+(?:[a-z]+[,\s]+){0,3}state\s+in\b", re.I)
+
+def proper_noun_reason(token, meaning_en):
+    if token[:1].isupper():
+        return "viết hoa (tên riêng/viết tắt/quốc tịch)"
+    if token in proper_noun_only:
+        return "chỉ viết hoa trong từ điển (tên riêng)"
+    m = (meaning_en or "").strip()
+    if PROPER_NOUN_KEYWORDS.search(m):
+        return "nghĩa mô tả tên người/tên riêng"
+    if PROPER_NOUN_STARTS.match(m) or PROPER_NOUN_STATE.match(m):
+        return "nghĩa mô tả quốc gia/thành phố/địa danh"
+    return None
+
 # ---------- bộ ảnh hiện có của MorphLink ----------
 def load_set(sub):
     d = os.path.join(ROOT, sub)
@@ -73,11 +103,23 @@ def add(loai, token, example_word, source, meaning=None):
 def parse_structure(struct):
     if "[" not in struct or "]" not in struct:
         return None
-    bracket_toks = re.findall(r"\[([^\]]+)\]", struct)
+    raw_bracket_toks = re.findall(r"\[([^\]]+)\]", struct)
     pre_part = struct[:struct.index("[")]
     suf_part = struct[struct.rindex("]") + 1:]
     pre_toks = [t for t in re.split(r"[-+]", pre_part.strip("-+")) if t]
     suf_toks = [t for t in re.split(r"[-+]", suf_part.strip("-+")) if t]
+    # Vài dòng do agent viết structure kiểu "[-ing]" (đánh dấu rõ đây là hậu
+    # tố chứ không phải root, vd từ "ing" bị lẫn vào danh sách "từ thiếu")
+    # -> phải tách các token trong ngoặc có dấu "-" ra prefix/suffix thay vì
+    # coi là root/word.
+    bracket_toks = []
+    for t in raw_bracket_toks:
+        if t.startswith("-"):
+            suf_toks.append(t[1:])
+        elif t.endswith("-"):
+            pre_toks.append(t[:-1])
+        else:
+            bracket_toks.append(t)
     return pre_toks, bracket_toks, suf_toks
 
 self_entry_meaning = {}  # root_token -> (en, vi), khi root_token chính là 1 từ trong danh sách thiếu
@@ -134,9 +176,10 @@ def trang_thai(loai, token):
         return "Đã có trong MorphLink" if token in existing_suffixes else "Mới - chưa có ảnh"
 
 rows_out = []
+rows_excluded = []
 for (loai, token), d in data.items():
     en, vi = d["meaning"] if d["meaning"] else ("", "")
-    rows_out.append({
+    row = {
         "loai": loai,
         "thanh_phan": token,
         "trang_thai": trang_thai(loai, token),
@@ -145,17 +188,33 @@ for (loai, token), d in data.items():
         "meaning_vi": vi,
         "vi_du_tu": ", ".join(sorted(d["examples"])),
         "nguon": "+".join(sorted(d["sources"])),
-    })
+    }
+    # Root/Word là tên riêng (người, địa danh, thương hiệu...) không phải
+    # thành phần cấu tạo từ thật -> loại khỏi sheet audit chính, nhưng vẫn
+    # ghi lại riêng để minh bạch (không âm thầm xóa).
+    reason = proper_noun_reason(token, en) if loai in ("Root", "Word") else None
+    if reason:
+        row["ly_do_loai"] = reason
+        rows_excluded.append(row)
+    else:
+        rows_out.append(row)
 
 LOAI_ORDER = {"Root": 0, "Word": 1, "Prefix": 2, "Suffix": 3}
 rows_out.sort(key=lambda r: (LOAI_ORDER[r["loai"]], r["trang_thai"] != "Mới - chưa có ảnh", r["thanh_phan"]))
+rows_excluded.sort(key=lambda r: (LOAI_ORDER[r["loai"]], r["thanh_phan"]))
 
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=["loai", "thanh_phan", "trang_thai", "so_lan_xuat_hien", "meaning_en", "meaning_vi", "vi_du_tu", "nguon"])
     w.writeheader()
     w.writerows(rows_out)
 
-print("total rows:", len(rows_out))
+EXCLUDED_OUT = os.path.join(ROOT, "master_audit_sheet_excluded_proper_nouns.csv")
+with open(EXCLUDED_OUT, "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=["loai", "thanh_phan", "trang_thai", "so_lan_xuat_hien", "meaning_en", "meaning_vi", "vi_du_tu", "nguon", "ly_do_loai"])
+    w.writeheader()
+    w.writerows(rows_excluded)
+
+print("total rows:", len(rows_out), "| loai tru (ten rieng):", len(rows_excluded))
 import collections
 cnt = collections.Counter((r["loai"], r["trang_thai"]) for r in rows_out)
 for k in sorted(cnt):
