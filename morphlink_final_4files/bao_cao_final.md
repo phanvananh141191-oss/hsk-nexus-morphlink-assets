@@ -15,12 +15,12 @@ Yêu cầu gốc dựa vào `morphlink_grand_total_WITH_BIENTHE.csv` (16.823 dò
 
 | File | Số dòng | Số cột |
 |---|---|---|
-| `morphlink_TU_TONG.csv` | **11.753** | 20 |
+| `morphlink_TU_TONG.csv` | **11.752** | 20 |
 | `morphlink_ROOT.csv` | **2.137** | 7 |
 | `morphlink_PREFIX.csv` | **94** | 8 |
 | `morphlink_SUFFIX.csv` | **126** | 8 |
 
-`morphlink_TU_TONG.csv` = 11.411 dòng từ `morphlink_MERGED_AUDITED_v3.csv` (đã audit 3 vòng) + 343 từ ghép mới từ `morphlink_compound_formation_FINAL3.csv` (không trùng với v3) − 1 dòng loại bỏ (`radii`, xem mục 4).
+`morphlink_TU_TONG.csv` = 11.411 dòng từ `morphlink_MERGED_AUDITED_v3.csv` (đã audit 3 vòng) + 343 từ ghép mới từ `morphlink_compound_formation_FINAL3.csv` (không trùng với v3) − 2 dòng loại bỏ (`radii`, `foreseen`) + 1 dòng bổ sung (`forbear` verb) − 1 dòng loại bỏ (`forbore`, thay bằng `forbear`) = 11.752, xem mục 3.
 
 ---
 
@@ -46,13 +46,15 @@ Khi build `morphlink_TU_TONG.csv`, phát hiện **6 dòng `pos=unknown`** còn s
 | word | Vấn đề | Xử lý |
 |---|---|---|
 | `radii` | Số nhiều bất quy tắc của `radius` (đã có trong file) | **Loại bỏ**; bổ sung `radius.noun_so_nhieu = "radii"` (trước đó bị gán nhầm ghi chú "có vẻ đã ở dạng số nhiều sẵn" — sai, vì "radius" không phải số nhiều) |
-| `flown` | pp của "fly" (không có trong file) | Sửa `pos=adjective`, viết lại nghĩa thật |
-| `forbore` | quá khứ của "forbear" (nghĩa "nhịn", verb — không có trong file, chỉ có noun "forbear"=tổ tiên) | Sửa `pos=verb`, viết nghĩa + ghi chú "đã chia sẵn" |
-| `foreseen` | pp của "foresee" (đã có trong file) | Sửa `pos=verb`, viết nghĩa + ghi chú "đã chia sẵn" |
+| `flown` | pp của "fly" (không có trong file) | Sửa `pos=adjective`, viết lại nghĩa thật (không có "fly" động từ để trỏ về) |
+| `forbore` | quá khứ của "forbear" (nghĩa "nhịn", verb — chỉ có noun "forbear"=tổ tiên trong file, chưa có verb) | **Sửa lại**: bổ sung `forbear` (verb, "kiềm chế, nhịn không làm điều gì") làm headword riêng với đủ 4 dạng chia (forbears/forbearing/forbore/forborne), **loại bỏ** `forbore` (nay dư thừa) |
+| `foreseen` | pp của "foresee" (**đã có sẵn trong file**, `verb_pp` của "foresee" vốn đã là "foreseen") | **Loại bỏ** — đây là bản sao thừa của thông tin đã có, đúng loại lỗi "biến thể ngữ pháp làm headword riêng" mà dự án đã loại bỏ nhiều lần (tương tự case "arose" ở Vòng 2) |
 | `shown` | pp của "show" (không có trong file) | Sửa `pos=adjective`, viết lại nghĩa thật |
 | `spilt` | quá khứ/pp của "spill" (không có trong file) | Sửa `pos=adjective` (cách dùng thành ngữ "spilt milk"), viết lại nghĩa thật |
 
-Sau khi sửa: **0 dòng `pos=unknown`** còn lại trong `morphlink_TU_TONG.csv`.
+*Sửa lần 2 (sau khi người dùng phát hiện `forbore` bất thường):* ban đầu `forbore` và `foreseen` được giữ lại với định nghĩa kiểu "dạng quá khứ của X" — đây vẫn là cách "biến thể làm headword riêng", chỉ khác là có viết lại câu cho tự nhiên hơn, không nhất quán với cách xử lý các case khác (vd `arose` đã bị xóa hẳn ở Vòng 2 khi "arise" đã có sẵn). Đã sửa lại: `foreseen` bị xóa hẳn (vì "foresee" đã có sẵn), còn `forbore` được thay bằng cách bổ sung đúng headword còn thiếu (`forbear` verb) rồi xóa `forbore`.
+
+Sau khi sửa: **0 dòng `pos=unknown`** còn lại, **0 dòng biến thể-làm-headword** còn sót trong `morphlink_TU_TONG.csv` (đã quét lại toàn bộ file bằng thuật toán độc lập sau khi sửa).
 
 ---
 
